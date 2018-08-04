@@ -101,7 +101,7 @@ d3.queue()
 	    return this._div;
 	};
 
-	// control that shows state info on hover
+	// control that shows county info on hover
 	var info = L.control();
 
 	info.onAdd = function (map) {
@@ -119,7 +119,12 @@ d3.queue()
 
 	info.addTo(map);
 
-	var colorlist = ['#ffffcc','#ffeda0','#fed976','#feb24c','#fd8d3c','#fc4e2a','#e31a1c','#bd0026','#800026'];
+	// multi-hue
+	// var colorlist = ['#ffffcc','#ffeda0','#fed976','#feb24c','#fd8d3c','#fc4e2a','#e31a1c','#bd0026','#800026'];
+	// single-hue reds
+	// var colorlist = ['#fff5f0','#fee0d2','#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'];
+	// single-hue blue
+	var colorlist = ['#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'];
 	//var colorlist = ['#ffffb2','#fecc5c','#fd8d3c','#f03b20','#bd0026'];
 	var colorScale = d3.scaleThreshold()
 		// .domain([0, 450])
@@ -168,12 +173,9 @@ d3.queue()
 	    // info.update();
 	}
 
-	function zoomToFeature(e) {
-	    map.fitBounds(e.target.getBounds());
-	}
-
 	function whenClicked(e) {
 	    selectCounty(e.target.feature.properties.name);
+
 	    // console.log(pcfStats);
 	    updatePCFGraph(pcfStats);
 	    info.update(e.target.feature.properties);

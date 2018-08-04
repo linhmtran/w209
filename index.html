@@ -9,13 +9,12 @@
 <body style="background-image: url("img/dash_bg.jpeg");>
 	<h1>California Traffic Collisions - 2017</h1>
 	<p>As unfortunate as it may be, traffic collisions are an inevitable occurence in the world of commuting and California is in no short supply of commuters or car collisions.  These visualizations help us explore different facets of traffic collisions within the state of California.  The dataset was taken from all vehicle collisions reported to CHP and other law enforcement agencies for the entire year of 2017.  Dive through and explore the data for your region.
-	<div style="width: 100%; overflow: hidden;" id="dash1_where">
+	<div style="overflow: auto;" id="dash1_where">
 		<h2>Where are you driving?</h2>
 		<div style="width: 600px; float: left;" id="map_context">
 			<p>Where you are located or where you drive can affect the odds of your involvment in a traffic collision as well as what type of collision you may be involved in.</p>
 			<p>Take for instance, Los Angeles or San Francisco, densely populated areas with many commuters the sheer number of drivers alongside of you raises the potential for a traffic collision.  However, things may not be as bad as they seem in certain areas when adjusted for population.  More remote areas of the state seem have more collisions per population.</p>
-			<p>Associated with each county, there is a pareto (bar) chart which will detail the number of collisions for each CHP Primary Collision Factor violation category.  Do note the changing scale for each county, although many counties seem to share a consistent pattern of violations: speeding is almost always a clear winner!  The line helps to indicate the cumulative proportion each type of collision makes up against all reported collisions in the county.</p>
-			<p>Take a moment to explore your region and others!  See what violaions are most prevalent in your area and discover things you should be wary of to help become a safer driver.</p>
+			<p>Use the map visualization to find out at a high level the number and rate of traffic collisions for your region (county).  This information will filter down to other variables that can affect the number and type of collisions as you continue to dive into the data.
 			<p>Select your county in the map, then learn more about traffic collisions in your region by scrolling down.</p>
 		</div>
 		<div style="float: left;" id="maptype">
@@ -25,7 +24,7 @@
 		</div>
 	</div>
 
-	<div style="width: 100%; overflow: hidden;" id="dash2_when">
+	<div style="overflow: auto;" id="dash2_when">
 		<h2>When are you on the road?</h2>
 		<div style="width: 600px; float: left;" id="time_context">
 			<p>When you are on the road also influence your propensity for being involved in a traffic collision.  During rush-hour times, more cars are on the road competeing for space and time in some instances which can lead to tumultous and unfortunate situations. Being aware of these conditions can help you as a driver!</p>
@@ -36,11 +35,13 @@
 		</div>
 	</div>
 
-	<div style="width: 100%; overflow: hidden;" id="dash3_what">
+	<div style="overflow: auto;" id="dash3_what">
 		<h2>What are the factors?</h2>
 		<div style="width: 600px; float: left;" id="what_context">
 			<p>What are the causes of these collisions and what are the consequences?</p>
 			<p>A majority of collisions only result in property damge, however unfortunate, there are always cases that also result in injury or worse fatality.  Explore some of the causes of collisions in your county, and what proportion of them result in injury or deaths.  Understanding these factors can help inform you what to search in your surroundings and what you can do on your part to be a safer driver.</p>
+			<p>Based on your location selection, the bar chart which update with detail the number of collisions for each CHP Primary Collision Factor violation category.  This can be speeding, brake failures, driving under the influence (DUI). Although, many counties seem to share a consistent pattern of violations: speeding is almost always a clear winner!</p>
+			<p>Please note the changing scale based on the county selection.  Naturally, smaller populous regions have few collisions on records. Take a moment to explore your region and others!  See what violaions are most prevalent in your area and discover things you should be wary of to help become a safer driver.</p>
 		</div>
 		<div style="float: left;" id="pcf_graph"></div>
 	</div>
