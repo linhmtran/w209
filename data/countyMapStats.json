@@ -1,0 +1,466 @@
+[
+  {
+    "County": "Alameda",
+    "Population": 1655752,
+    "Collisions": 23607,
+    "Killed": 88,
+    "Collisions per Capita 10k": 142.575699742474,
+    "Killed per Capita 10k": 0.531480559890612
+  },
+  {
+    "County": "Alpine",
+    "Population": 1143,
+    "Collisions": 90,
+    "Killed": 4,
+    "Collisions per Capita 10k": 787.40157480315,
+    "Killed per Capita 10k": 34.9956255468067
+  },
+  {
+    "County": "Amador",
+    "Population": 37267,
+    "Collisions": 527,
+    "Killed": 12,
+    "Collisions per Capita 10k": 141.411973059275,
+    "Killed per Capita 10k": 3.22000697668178
+  },
+  {
+    "County": "Butte",
+    "Population": 226478,
+    "Collisions": 2336,
+    "Killed": 37,
+    "Collisions per Capita 10k": 103.1446763041,
+    "Killed per Capita 10k": 1.63371276680296
+  },
+  {
+    "County": "Calaveras",
+    "Population": 44818,
+    "Collisions": 690,
+    "Killed": 20,
+    "Collisions per Capita 10k": 153.9559998215,
+    "Killed per Capita 10k": 4.46249274844928
+  },
+  {
+    "County": "Colusa",
+    "Population": 22612,
+    "Collisions": 390,
+    "Killed": 11,
+    "Collisions per Capita 10k": 172.474792145763,
+    "Killed per Capita 10k": 4.86467362462409
+  },
+  {
+    "County": "Contra Costa",
+    "Population": 1143494,
+    "Collisions": 10644,
+    "Killed": 61,
+    "Collisions per Capita 10k": 93.0831294261273,
+    "Killed per Capita 10k": 0.533452733464277
+  },
+  {
+    "County": "Del Norte",
+    "Population": 27063,
+    "Collisions": 342,
+    "Killed": 6,
+    "Collisions per Capita 10k": 126.371799135351,
+    "Killed per Capita 10k": 2.21704910763773
+  },
+  {
+    "County": "El Dorado",
+    "Population": 185090,
+    "Collisions": 1842,
+    "Killed": 27,
+    "Collisions per Capita 10k": 99.5191528445621,
+    "Killed per Capita 10k": 1.45874979739586
+  },
+  {
+    "County": "Fresno",
+    "Population": 999902,
+    "Collisions": 7155,
+    "Killed": 155,
+    "Collisions per Capita 10k": 71.5570125872335,
+    "Killed per Capita 10k": 1.55015191488766
+  },
+  {
+    "County": "Glenn",
+    "Population": 29204,
+    "Collisions": 347,
+    "Killed": 9,
+    "Collisions per Capita 10k": 118.819339816463,
+    "Killed per Capita 10k": 3.08176962059992
+  },
+  {
+    "County": "Humboldt",
+    "Population": 136835,
+    "Collisions": 2143,
+    "Killed": 40,
+    "Collisions per Capita 10k": 156.611977929623,
+    "Killed per Capita 10k": 2.92322870610589
+  },
+  {
+    "County": "Imperial",
+    "Population": 189376,
+    "Collisions": 1122,
+    "Killed": 23,
+    "Collisions per Capita 10k": 59.2472118959108,
+    "Killed per Capita 10k": 1.21451503886448
+  },
+  {
+    "County": "Inyo",
+    "Population": 18693,
+    "Collisions": 362,
+    "Killed": 10,
+    "Collisions per Capita 10k": 193.655379018884,
+    "Killed per Capita 10k": 5.34959610549404
+  },
+  {
+    "County": "Kern",
+    "Population": 897727,
+    "Collisions": 10569,
+    "Killed": 182,
+    "Collisions per Capita 10k": 117.730668677672,
+    "Killed per Capita 10k": 2.02734238805338
+  },
+  {
+    "County": "Kings",
+    "Population": 150441,
+    "Collisions": 1667,
+    "Killed": 27,
+    "Collisions per Capita 10k": 110.807559109551,
+    "Killed per Capita 10k": 1.79472351287216
+  },
+  {
+    "County": "Lake",
+    "Population": 65161,
+    "Collisions": 655,
+    "Killed": 17,
+    "Collisions per Capita 10k": 100.520249842697,
+    "Killed per Capita 10k": 2.6089225150013
+  },
+  {
+    "County": "Lassen",
+    "Population": 30652,
+    "Collisions": 318,
+    "Killed": 8,
+    "Collisions per Capita 10k": 103.745269476706,
+    "Killed per Capita 10k": 2.60994388620645
+  },
+  {
+    "County": "Los Angeles",
+    "Population": 10288515,
+    "Collisions": 156245,
+    "Killed": 669,
+    "Collisions per Capita 10k": 151.863509942883,
+    "Killed per Capita 10k": 0.650239611839026
+  },
+  {
+    "County": "Madera",
+    "Population": 157296,
+    "Collisions": 2575,
+    "Killed": 25,
+    "Collisions per Capita 10k": 163.704099277795,
+    "Killed per Capita 10k": 1.58936018716306
+  },
+  {
+    "County": "Marin",
+    "Population": 264413,
+    "Collisions": 3102,
+    "Killed": 14,
+    "Collisions per Capita 10k": 117.316470824052,
+    "Killed per Capita 10k": 0.529474723254908
+  },
+  {
+    "County": "Mariposa",
+    "Population": 18058,
+    "Collisions": 276,
+    "Killed": 7,
+    "Collisions per Capita 10k": 152.840846162366,
+    "Killed per Capita 10k": 3.87639827223391
+  },
+  {
+    "County": "Mendocino",
+    "Population": 89329,
+    "Collisions": 1467,
+    "Killed": 30,
+    "Collisions per Capita 10k": 164.224384018628,
+    "Killed per Capita 10k": 3.35837186132163
+  },
+  {
+    "County": "Merced",
+    "Population": 275926,
+    "Collisions": 4142,
+    "Killed": 71,
+    "Collisions per Capita 10k": 150.112711379138,
+    "Killed per Capita 10k": 2.5731536716366
+  },
+  {
+    "County": "Modoc",
+    "Population": 9431,
+    "Collisions": 125,
+    "Killed": 0,
+    "Collisions per Capita 10k": 132.541618068073,
+    "Killed per Capita 10k": 0
+  },
+  {
+    "County": "Mono",
+    "Population": 13827,
+    "Collisions": 389,
+    "Killed": 5,
+    "Collisions per Capita 10k": 281.333622622405,
+    "Killed per Capita 10k": 3.61611340131627
+  },
+  {
+    "County": "Monterey",
+    "Population": 445408,
+    "Collisions": 6248,
+    "Killed": 55,
+    "Collisions per Capita 10k": 140.275881888067,
+    "Killed per Capita 10k": 1.23482290394425
+  },
+  {
+    "County": "Napa",
+    "Population": 142898,
+    "Collisions": 1836,
+    "Killed": 16,
+    "Collisions per Capita 10k": 128.483253789416,
+    "Killed per Capita 10k": 1.11967977158533
+  },
+  {
+    "County": "Nevada",
+    "Population": 98847,
+    "Collisions": 1253,
+    "Killed": 16,
+    "Collisions per Capita 10k": 126.761560795978,
+    "Killed per Capita 10k": 1.61866318654082
+  },
+  {
+    "County": "Orange",
+    "Population": 3201395,
+    "Collisions": 35016,
+    "Killed": 187,
+    "Collisions per Capita 10k": 109.377318325293,
+    "Killed per Capita 10k": 0.584120360030549
+  },
+  {
+    "County": "Placer",
+    "Population": 380976,
+    "Collisions": 3045,
+    "Killed": 28,
+    "Collisions per Capita 10k": 79.9262945697367,
+    "Killed per Capita 10k": 0.734954432825165
+  },
+  {
+    "County": "Plumas",
+    "Population": 19434,
+    "Collisions": 287,
+    "Killed": 6,
+    "Collisions per Capita 10k": 147.679324894515,
+    "Killed per Capita 10k": 3.08737264587836
+  },
+  {
+    "County": "Riverside",
+    "Population": 2395487,
+    "Collisions": 26857,
+    "Killed": 278,
+    "Collisions per Capita 10k": 112.114989561621,
+    "Killed per Capita 10k": 1.16051558618352
+  },
+  {
+    "County": "Sacramento",
+    "Population": 1524524,
+    "Collisions": 19557,
+    "Killed": 171,
+    "Collisions per Capita 10k": 128.282663965933,
+    "Killed per Capita 10k": 1.12166158092624
+  },
+  {
+    "County": "San Benito",
+    "Population": 58519,
+    "Collisions": 810,
+    "Killed": 9,
+    "Collisions per Capita 10k": 138.416582648371,
+    "Killed per Capita 10k": 1.53796202942634
+  },
+  {
+    "County": "San Bernardino",
+    "Population": 2168360,
+    "Collisions": 28565,
+    "Killed": 270,
+    "Collisions per Capita 10k": 131.735505174418,
+    "Killed per Capita 10k": 1.2451806895534
+  },
+  {
+    "County": "San Diego",
+    "Population": 3327562,
+    "Collisions": 27983,
+    "Killed": 234,
+    "Collisions per Capita 10k": 84.0946013928516,
+    "Killed per Capita 10k": 0.703217550867572
+  },
+  {
+    "County": "San Francisco",
+    "Population": 879517,
+    "Collisions": 7156,
+    "Killed": 25,
+    "Collisions per Capita 10k": 81.3628389218173,
+    "Killed per Capita 10k": 0.284246921890083
+  },
+  {
+    "County": "San Joaquin",
+    "Population": 750002,
+    "Collisions": 11273,
+    "Killed": 117,
+    "Collisions per Capita 10k": 150.306265849958,
+    "Killed per Capita 10k": 1.55999584001109
+  },
+  {
+    "County": "San Luis Obispo",
+    "Population": 280822,
+    "Collisions": 4085,
+    "Killed": 34,
+    "Collisions per Capita 10k": 145.465811083177,
+    "Killed per Capita 10k": 1.21073135295668
+  },
+  {
+    "County": "San Mateo",
+    "Population": 774974,
+    "Collisions": 8008,
+    "Killed": 33,
+    "Collisions per Capita 10k": 103.332498896737,
+    "Killed per Capita 10k": 0.425820737211829
+  },
+  {
+    "County": "Santa Barbara",
+    "Population": 451688,
+    "Collisions": 5826,
+    "Killed": 38,
+    "Collisions per Capita 10k": 128.982837710986,
+    "Killed per Capita 10k": 0.841288677139973
+  },
+  {
+    "County": "Santa Clara",
+    "Population": 1952286,
+    "Collisions": 17664,
+    "Killed": 103,
+    "Collisions per Capita 10k": 90.4785466883438,
+    "Killed per Capita 10k": 0.527586634335338
+  },
+  {
+    "County": "Santa Cruz",
+    "Population": 278335,
+    "Collisions": 3804,
+    "Killed": 19,
+    "Collisions per Capita 10k": 136.669840300357,
+    "Killed per Capita 10k": 0.682630642930282
+  },
+  {
+    "County": "Shasta",
+    "Population": 178359,
+    "Collisions": 1649,
+    "Killed": 27,
+    "Collisions per Capita 10k": 92.4539832584843,
+    "Killed per Capita 10k": 1.51380081745244
+  },
+  {
+    "County": "Sierra",
+    "Population": 3138,
+    "Collisions": 73,
+    "Killed": 3,
+    "Collisions per Capita 10k": 232.632249840663,
+    "Killed per Capita 10k": 9.56022944550669
+  },
+  {
+    "County": "Siskiyou",
+    "Population": 44325,
+    "Collisions": 584,
+    "Killed": 15,
+    "Collisions per Capita 10k": 131.754089114495,
+    "Killed per Capita 10k": 3.38409475465313
+  },
+  {
+    "County": "Solano",
+    "Population": 439320,
+    "Collisions": 5208,
+    "Killed": 32,
+    "Collisions per Capita 10k": 118.546845124283,
+    "Killed per Capita 10k": 0.728398433943367
+  },
+  {
+    "County": "Sonoma",
+    "Population": 507323,
+    "Collisions": 6080,
+    "Killed": 41,
+    "Collisions per Capita 10k": 119.844753736771,
+    "Killed per Capita 10k": 0.80816363539599
+  },
+  {
+    "County": "Stanislaus",
+    "Population": 551712,
+    "Collisions": 7024,
+    "Killed": 72,
+    "Collisions per Capita 10k": 127.312800881619,
+    "Killed per Capita 10k": 1.30502871063163
+  },
+  {
+    "County": "Sutter",
+    "Population": 98992,
+    "Collisions": 1149,
+    "Killed": 22,
+    "Collisions per Capita 10k": 116.06998545337,
+    "Killed per Capita 10k": 2.22240181024729
+  },
+  {
+    "County": "Tehama",
+    "Population": 64313,
+    "Collisions": 726,
+    "Killed": 12,
+    "Collisions per Capita 10k": 112.885419744064,
+    "Killed per Capita 10k": 1.86587470651346
+  },
+  {
+    "County": "Trinity",
+    "Population": 13447,
+    "Collisions": 262,
+    "Killed": 5,
+    "Collisions per Capita 10k": 194.838997545921,
+    "Killed per Capita 10k": 3.71830147988399
+  },
+  {
+    "County": "Tulare",
+    "Population": 473308,
+    "Collisions": 5231,
+    "Killed": 84,
+    "Collisions per Capita 10k": 110.519999661954,
+    "Killed per Capita 10k": 1.77474287356225
+  },
+  {
+    "County": "Tuolumne",
+    "Population": 54193,
+    "Collisions": 908,
+    "Killed": 14,
+    "Collisions per Capita 10k": 167.549314487111,
+    "Killed per Capita 10k": 2.58335947447087
+  },
+  {
+    "County": "Ventura",
+    "Population": 858585,
+    "Collisions": 9329,
+    "Killed": 50,
+    "Collisions per Capita 10k": 108.655520420226,
+    "Killed per Capita 10k": 0.582353523529994
+  },
+  {
+    "County": "Yolo",
+    "Population": 220171,
+    "Collisions": 2617,
+    "Killed": 20,
+    "Collisions per Capita 10k": 118.862157141495,
+    "Killed per Capita 10k": 0.908384846323994
+  },
+  {
+    "County": "Yuba",
+    "Population": 76904,
+    "Collisions": 981,
+    "Killed": 11,
+    "Collisions per Capita 10k": 127.561635285551,
+    "Killed per Capita 10k": 1.43035472797254
+  }
+]

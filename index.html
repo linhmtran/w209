@@ -1,63 +1,60 @@
-
 <!DOCTYPE html>
-<html lang="en" >
-
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Traffic Accident Visualization</title>
-
-      <link rel="stylesheet" href="css/main-style.css">
-
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css">
+	<title>California Traffic Collisions Visualization</title>
 </head>
+<body style="background-image: url("img/dash_bg.jpeg");>
+	<h1>California Traffic Collisions - 2017</h1>
+	<p>As unfortunate as it may be, traffic collisions are an inevitable occurence in the world of commuting and California is in no short supply of commuters or car collisions.  These visualizations help us explore different facets of traffic collisions within the state of California.  The dataset was taken from all vehicle collisions reported to CHP and other law enforcement agencies for the entire year of 2017.  Dive through and explore the data for your region.
+	<div style="width: 100%; overflow: hidden;" id="dash1_where">
+		<h2>Where are you driving?</h2>
+		<div style="width: 600px; float: left;" id="map_context">
+			<p>Where you are located or where you drive can affect the odds of your involvment in a traffic collision as well as what type of collision you may be involved in.</p>
+			<p>Take for instance, Los Angeles or San Francisco, densely populated areas with many commuters the sheer number of drivers alongside of you raises the potential for a traffic collision.  However, things may not be as bad as they seem in certain areas when adjusted for population.  More remote areas of the state seem have more collisions per population.</p>
+			<p>Associated with each county, there is a pareto (bar) chart which will detail the number of collisions for each CHP Primary Collision Factor violation category.  Do note the changing scale for each county, although many counties seem to share a consistent pattern of violations: speeding is almost always a clear winner!  The line helps to indicate the cumulative proportion each type of collision makes up against all reported collisions in the county.</p>
+			<p>Take a moment to explore your region and others!  See what violaions are most prevalent in your area and discover things you should be wary of to help become a safer driver.</p>
+			<p>Select your county in the map, then learn more about traffic collisions in your region by scrolling down.</p>
+		</div>
+		<div style="float: left;" id="maptype">
+				<input type="radio" id="r1" name="maptype" class="radioButton" value="Number of Collisions" checked> Number of Collisions
+				<input type="radio" id="r2" name="maptype" class="radioButton" value="Collisions per Capita"> Collisions per 10,000 Population
+			<div id="map"></div>
+		</div>
+	</div>
 
-<body>
-  <div>
-  <header>
-    <h1><font color="steelblue">Traffic Accident Visualization</font></h1>
-    <p> U.C. Berkeley School of Information | Data Viz Project Summer 2018 [Prototype]</p>
-  </header>
-  <div>
+	<div style="width: 100%; overflow: hidden;" id="dash2_when">
+		<h2>When are you on the road?</h2>
+		<div style="width: 600px; float: left;" id="time_context">
+			<p>When you are on the road also influence your propensity for being involved in a traffic collision.  During rush-hour times, more cars are on the road competeing for space and time in some instances which can lead to tumultous and unfortunate situations. Being aware of these conditions can help you as a driver!</p>
+			<p>Traffic and collisions patterns share common traits throughout the week, but its also interesting to see how different days of the week differ.  For instance, Friday evenings tend to have a greater number of collisions, so there's another incentive to beat rush hour!</p>
+		</div>
+		<div style="float: left;" id="heatmap">
+			<p>PLACE HOLDER</p>
+		</div>
+	</div>
 
-  <div align="center">
-    <a href="https://public.tableau.com/profile/linh.tran7501#!/vizhome/w209projectprotoypedash2/Dashboard1?publish=yes">How does timing contribute to accident rates?<a>
-    <br>
-    <div class="thumbnail-container">
-      <div class="thumbnail" align="center">
-        <iframe src="https://public.tableau.com/profile/linh.tran7501#!/vizhome/w209projectprotoypedash2/Dashboard1?publish=yes" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
-      </div>
-    </div>
-  </div>
+	<div style="width: 100%; overflow: hidden;" id="dash3_what">
+		<h2>What are the factors?</h2>
+		<div style="width: 600px; float: left;" id="what_context">
+			<p>What are the causes of these collisions and what are the consequences?</p>
+			<p>A majority of collisions only result in property damge, however unfortunate, there are always cases that also result in injury or worse fatality.  Explore some of the causes of collisions in your county, and what proportion of them result in injury or deaths.  Understanding these factors can help inform you what to search in your surroundings and what you can do on your part to be a safer driver.</p>
+		</div>
+		<div style="float: left;" id="pcf_graph"></div>
+	</div>
+	
+<script src="js/d3.v4.js"></script>
+<script src="js/d3-legend.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js"></script>
 
+<!-- PCF bar graph, declare first since triggered by county map actions -->
+<script src="js/pcf_graph.js"></script>
 
-  <div class="layout-container" align="center">
-
-    <div class="left-column">
-      <a href="https://public.tableau.com/profile/zach.day7835#!/vizhome/SankeyDiagram_45/Dashboard1">How do the types of cars/vehicles around me of the road change affect accident rate?<a>
-      <br>
-      <div class="thumbnail-container">
-        <div class="thumbnail" align="center">
-          <iframe src="https://public.tableau.com/profile/zach.day7835#!/vizhome/SankeyDiagram_45/Dashboard1" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
-        </div>
-      </div>
-    </div>
-
-    <div class="right-column">
-      <a href="https://public.tableau.com/profile/mark.gin1304#!/vizhome/2013_2017_CA_Collisions/Dashboard1?publish=yes">Where do accidents occcur the most and why?<a>
-      <br>
-      <div class="thumbnail-container">
-        <div class="thumbnail" align="center">
-          <iframe src="https://public.tableau.com/profile/mark.gin1304#!/vizhome/2013_2017_CA_Collisions/Dashboard1?publish=yes" frameborder="0" onload="var that=this;setTimeout(function() { that.style.opacity = 1 }, 500)"></iframe>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js'></script>
-  <script src='https://cdn.jsdelivr.net/npm/d3-scale-chromatic@1.3.0/dist/d3-scale-chromatic.min.js'></script>
+<!-- scripts to support counties map -->
+<script src="js/california-counties.js"></script>
+<script src="js/counties_map.js"></script>
 
 </body>
-
 </html>
