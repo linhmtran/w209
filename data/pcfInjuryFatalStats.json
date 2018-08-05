@@ -1,0 +1,8085 @@
+[
+  {
+    "County": "Alameda",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 821,
+        "Injury": 821,
+        "Fatal": 821,
+        "Total": 1794
+      },
+      "Brakes": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 4
+      },
+      "DUI": {
+        "Property": 861,
+        "Injury": 861,
+        "Fatal": 861,
+        "Total": 1362
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 281,
+        "Injury": 281,
+        "Fatal": 281,
+        "Total": 455
+      },
+      "Hazardous Parking": {
+        "Property": 26,
+        "Injury": 26,
+        "Fatal": 26,
+        "Total": 31
+      },
+      "Impeding Traffic": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 12
+      },
+      "Improper Passing": {
+        "Property": 157,
+        "Injury": 157,
+        "Fatal": 157,
+        "Total": 218
+      },
+      "Improper Turning": {
+        "Property": 3453,
+        "Injury": 3453,
+        "Fatal": 3453,
+        "Total": 4641
+      },
+      "Lights": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 407,
+        "Injury": 407,
+        "Fatal": 407,
+        "Total": 588
+      },
+      "Other Equipment": {
+        "Property": 16,
+        "Injury": 16,
+        "Fatal": 16,
+        "Total": 20
+      },
+      "Other Hazardous Violation": {
+        "Property": 178,
+        "Injury": 178,
+        "Fatal": 178,
+        "Total": 284
+      },
+      "Other Improper Driving": {
+        "Property": 142,
+        "Injury": 142,
+        "Fatal": 142,
+        "Total": 179
+      },
+      "Other than Driver or Ped": {
+        "Property": 340,
+        "Injury": 340,
+        "Fatal": 340,
+        "Total": 451
+      },
+      "Pedestrian Right of Way": {
+        "Property": 28,
+        "Injury": 28,
+        "Fatal": 28,
+        "Total": 455
+      },
+      "Pedestrian Violation": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 184
+      },
+      "Traffic Signals and Signs": {
+        "Property": 522,
+        "Injury": 522,
+        "Fatal": 522,
+        "Total": 1255
+      },
+      "Unsafe Lane Change": {
+        "Property": 1947,
+        "Injury": 1947,
+        "Fatal": 1947,
+        "Total": 2441
+      },
+      "Unsafe Speed": {
+        "Property": 5246,
+        "Injury": 5246,
+        "Fatal": 5246,
+        "Total": 8109
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 633,
+        "Injury": 633,
+        "Fatal": 633,
+        "Total": 767
+      },
+      "Wrong Side of Road": {
+        "Property": 159,
+        "Injury": 159,
+        "Fatal": 159,
+        "Total": 355
+      }
+    }
+  },
+  {
+    "County": "Alpine",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 12
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Turning": {
+        "Property": 14,
+        "Injury": 14,
+        "Fatal": 14,
+        "Total": 34
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 7
+      },
+      "Other Improper Driving": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other than Driver or Ped": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 5
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Traffic Signals and Signs": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Unsafe Lane Change": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Unsafe Speed": {
+        "Property": 14,
+        "Injury": 14,
+        "Fatal": 14,
+        "Total": 25
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Wrong Side of Road": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 3
+      }
+    }
+  },
+  {
+    "County": "Amador",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 34,
+        "Injury": 34,
+        "Fatal": 34,
+        "Total": 58
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 29,
+        "Injury": 29,
+        "Fatal": 29,
+        "Total": 65
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Hazardous Parking": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 5
+      },
+      "Improper Turning": {
+        "Property": 49,
+        "Injury": 49,
+        "Fatal": 49,
+        "Total": 86
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 8
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Other Improper Driving": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Other than Driver or Ped": {
+        "Property": 22,
+        "Injury": 22,
+        "Fatal": 22,
+        "Total": 29
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Traffic Signals and Signs": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 8
+      },
+      "Unsafe Lane Change": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 8
+      },
+      "Unsafe Speed": {
+        "Property": 69,
+        "Injury": 69,
+        "Fatal": 69,
+        "Total": 128
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 10
+      },
+      "Wrong Side of Road": {
+        "Property": 58,
+        "Injury": 58,
+        "Fatal": 58,
+        "Total": 106
+      }
+    }
+  },
+  {
+    "County": "Butte",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 136,
+        "Injury": 136,
+        "Fatal": 136,
+        "Total": 308
+      },
+      "Brakes": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "DUI": {
+        "Property": 157,
+        "Injury": 157,
+        "Fatal": 157,
+        "Total": 262
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 22
+      },
+      "Hazardous Parking": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 14,
+        "Injury": 14,
+        "Fatal": 14,
+        "Total": 22
+      },
+      "Improper Turning": {
+        "Property": 254,
+        "Injury": 254,
+        "Fatal": 254,
+        "Total": 387
+      },
+      "Lights": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 62,
+        "Injury": 62,
+        "Fatal": 62,
+        "Total": 102
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Other Hazardous Violation": {
+        "Property": 19,
+        "Injury": 19,
+        "Fatal": 19,
+        "Total": 25
+      },
+      "Other Improper Driving": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 18
+      },
+      "Other than Driver or Ped": {
+        "Property": 61,
+        "Injury": 61,
+        "Fatal": 61,
+        "Total": 81
+      },
+      "Pedestrian Right of Way": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 26
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 23
+      },
+      "Traffic Signals and Signs": {
+        "Property": 27,
+        "Injury": 27,
+        "Fatal": 27,
+        "Total": 93
+      },
+      "Unsafe Lane Change": {
+        "Property": 37,
+        "Injury": 37,
+        "Fatal": 37,
+        "Total": 52
+      },
+      "Unsafe Speed": {
+        "Property": 394,
+        "Injury": 394,
+        "Fatal": 394,
+        "Total": 682
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 41,
+        "Injury": 41,
+        "Fatal": 41,
+        "Total": 52
+      },
+      "Wrong Side of Road": {
+        "Property": 87,
+        "Injury": 87,
+        "Fatal": 87,
+        "Total": 171
+      }
+    }
+  },
+  {
+    "County": "CA_STATE",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 21107,
+        "Injury": 21107,
+        "Fatal": 21107,
+        "Total": 0
+      },
+      "Brakes": {
+        "Property": 60,
+        "Injury": 60,
+        "Fatal": 60,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 19819,
+        "Injury": 19819,
+        "Fatal": 19819,
+        "Total": 0
+      },
+      "Fell Asleep": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 4412,
+        "Injury": 4412,
+        "Fatal": 4412,
+        "Total": 0
+      },
+      "Hazardous Parking": {
+        "Property": 420,
+        "Injury": 420,
+        "Fatal": 420,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 163,
+        "Injury": 163,
+        "Fatal": 163,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 3362,
+        "Injury": 3362,
+        "Fatal": 3362,
+        "Total": 0
+      },
+      "Improper Turning": {
+        "Property": 61987,
+        "Injury": 61987,
+        "Fatal": 61987,
+        "Total": 0
+      },
+      "Lights": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 11301,
+        "Injury": 11301,
+        "Fatal": 11301,
+        "Total": 0
+      },
+      "Other Equipment": {
+        "Property": 376,
+        "Injury": 376,
+        "Fatal": 376,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 3458,
+        "Injury": 3458,
+        "Fatal": 3458,
+        "Total": 0
+      },
+      "Other Improper Driving": {
+        "Property": 2119,
+        "Injury": 2119,
+        "Fatal": 2119,
+        "Total": 0
+      },
+      "Other than Driver or Ped": {
+        "Property": 7894,
+        "Injury": 7894,
+        "Fatal": 7894,
+        "Total": 0
+      },
+      "Pedestrian Right of Way": {
+        "Property": 210,
+        "Injury": 210,
+        "Fatal": 210,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 235,
+        "Injury": 235,
+        "Fatal": 235,
+        "Total": 0
+      },
+      "Traffic Signals and Signs": {
+        "Property": 8889,
+        "Injury": 8889,
+        "Fatal": 8889,
+        "Total": 0
+      },
+      "Unsafe Lane Change": {
+        "Property": 28173,
+        "Injury": 28173,
+        "Fatal": 28173,
+        "Total": 0
+      },
+      "Unsafe Speed": {
+        "Property": 97318,
+        "Injury": 97318,
+        "Fatal": 97318,
+        "Total": 0
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 12703,
+        "Injury": 12703,
+        "Fatal": 12703,
+        "Total": 0
+      },
+      "Wrong Side of Road": {
+        "Property": 4181,
+        "Injury": 4181,
+        "Fatal": 4181,
+        "Total": 0
+      }
+    }
+  },
+  {
+    "County": "Calaveras",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 50,
+        "Injury": 50,
+        "Fatal": 50,
+        "Total": 81
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 37,
+        "Injury": 37,
+        "Fatal": 37,
+        "Total": 86
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 5
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Improper Turning": {
+        "Property": 143,
+        "Injury": 143,
+        "Fatal": 143,
+        "Total": 255
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 8
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Other Improper Driving": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other than Driver or Ped": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 31
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 5
+      },
+      "Traffic Signals and Signs": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Unsafe Lane Change": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 3
+      },
+      "Unsafe Speed": {
+        "Property": 77,
+        "Injury": 77,
+        "Fatal": 77,
+        "Total": 135
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 13
+      },
+      "Wrong Side of Road": {
+        "Property": 29,
+        "Injury": 29,
+        "Fatal": 29,
+        "Total": 58
+      }
+    }
+  },
+  {
+    "County": "Colusa",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 26
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 13,
+        "Injury": 13,
+        "Fatal": 13,
+        "Total": 26
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 5
+      },
+      "Improper Turning": {
+        "Property": 96,
+        "Injury": 96,
+        "Fatal": 96,
+        "Total": 149
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Other Equipment": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Other Hazardous Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Other Improper Driving": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 4
+      },
+      "Other than Driver or Ped": {
+        "Property": 25,
+        "Injury": 25,
+        "Fatal": 25,
+        "Total": 30
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Traffic Signals and Signs": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Unsafe Lane Change": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 17
+      },
+      "Unsafe Speed": {
+        "Property": 63,
+        "Injury": 63,
+        "Fatal": 63,
+        "Total": 89
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 16,
+        "Injury": 16,
+        "Fatal": 16,
+        "Total": 17
+      },
+      "Wrong Side of Road": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 10
+      }
+    }
+  },
+  {
+    "County": "Contra Costa",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 401,
+        "Injury": 401,
+        "Fatal": 401,
+        "Total": 874
+      },
+      "Brakes": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "DUI": {
+        "Property": 417,
+        "Injury": 417,
+        "Fatal": 417,
+        "Total": 749
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 163,
+        "Injury": 163,
+        "Fatal": 163,
+        "Total": 232
+      },
+      "Hazardous Parking": {
+        "Property": 16,
+        "Injury": 16,
+        "Fatal": 16,
+        "Total": 19
+      },
+      "Impeding Traffic": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 5
+      },
+      "Improper Passing": {
+        "Property": 75,
+        "Injury": 75,
+        "Fatal": 75,
+        "Total": 93
+      },
+      "Improper Turning": {
+        "Property": 1367,
+        "Injury": 1367,
+        "Fatal": 1367,
+        "Total": 2020
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 247,
+        "Injury": 247,
+        "Fatal": 247,
+        "Total": 363
+      },
+      "Other Equipment": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 6
+      },
+      "Other Hazardous Violation": {
+        "Property": 110,
+        "Injury": 110,
+        "Fatal": 110,
+        "Total": 160
+      },
+      "Other Improper Driving": {
+        "Property": 70,
+        "Injury": 70,
+        "Fatal": 70,
+        "Total": 90
+      },
+      "Other than Driver or Ped": {
+        "Property": 149,
+        "Injury": 149,
+        "Fatal": 149,
+        "Total": 223
+      },
+      "Pedestrian Right of Way": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 134
+      },
+      "Pedestrian Violation": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 103
+      },
+      "Traffic Signals and Signs": {
+        "Property": 225,
+        "Injury": 225,
+        "Fatal": 225,
+        "Total": 546
+      },
+      "Unsafe Lane Change": {
+        "Property": 728,
+        "Injury": 728,
+        "Fatal": 728,
+        "Total": 941
+      },
+      "Unsafe Speed": {
+        "Property": 2155,
+        "Injury": 2155,
+        "Fatal": 2155,
+        "Total": 3543
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 279,
+        "Injury": 279,
+        "Fatal": 279,
+        "Total": 331
+      },
+      "Wrong Side of Road": {
+        "Property": 112,
+        "Injury": 112,
+        "Fatal": 112,
+        "Total": 209
+      }
+    }
+  },
+  {
+    "County": "Del Norte",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 17,
+        "Injury": 17,
+        "Fatal": 17,
+        "Total": 30
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 22,
+        "Injury": 22,
+        "Fatal": 22,
+        "Total": 39
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Improper Turning": {
+        "Property": 60,
+        "Injury": 60,
+        "Fatal": 60,
+        "Total": 96
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other Hazardous Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Other Improper Driving": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 8
+      },
+      "Other than Driver or Ped": {
+        "Property": 24,
+        "Injury": 24,
+        "Fatal": 24,
+        "Total": 29
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Traffic Signals and Signs": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Unsafe Lane Change": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Unsafe Speed": {
+        "Property": 60,
+        "Injury": 60,
+        "Fatal": 60,
+        "Total": 110
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 9
+      },
+      "Wrong Side of Road": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 5
+      }
+    }
+  },
+  {
+    "County": "El Dorado",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 76,
+        "Injury": 76,
+        "Fatal": 76,
+        "Total": 140
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 138,
+        "Injury": 138,
+        "Fatal": 138,
+        "Total": 256
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 11
+      },
+      "Hazardous Parking": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 4
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Improper Passing": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 19
+      },
+      "Improper Turning": {
+        "Property": 277,
+        "Injury": 277,
+        "Fatal": 277,
+        "Total": 418
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 22
+      },
+      "Other Equipment": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 6
+      },
+      "Other Hazardous Violation": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 12
+      },
+      "Other Improper Driving": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 20
+      },
+      "Other than Driver or Ped": {
+        "Property": 58,
+        "Injury": 58,
+        "Fatal": 58,
+        "Total": 82
+      },
+      "Pedestrian Right of Way": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Pedestrian Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 7
+      },
+      "Traffic Signals and Signs": {
+        "Property": 24,
+        "Injury": 24,
+        "Fatal": 24,
+        "Total": 48
+      },
+      "Unsafe Lane Change": {
+        "Property": 40,
+        "Injury": 40,
+        "Fatal": 40,
+        "Total": 51
+      },
+      "Unsafe Speed": {
+        "Property": 336,
+        "Injury": 336,
+        "Fatal": 336,
+        "Total": 557
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 33,
+        "Injury": 33,
+        "Fatal": 33,
+        "Total": 38
+      },
+      "Wrong Side of Road": {
+        "Property": 86,
+        "Injury": 86,
+        "Fatal": 86,
+        "Total": 147
+      }
+    }
+  },
+  {
+    "County": "Fresno",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 431,
+        "Injury": 431,
+        "Fatal": 431,
+        "Total": 876
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 276,
+        "Injury": 276,
+        "Fatal": 276,
+        "Total": 551
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 28,
+        "Injury": 28,
+        "Fatal": 28,
+        "Total": 39
+      },
+      "Hazardous Parking": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 4
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Improper Passing": {
+        "Property": 49,
+        "Injury": 49,
+        "Fatal": 49,
+        "Total": 62
+      },
+      "Improper Turning": {
+        "Property": 1158,
+        "Injury": 1158,
+        "Fatal": 1158,
+        "Total": 1642
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 3
+      },
+      "Not Stated": {
+        "Property": 148,
+        "Injury": 148,
+        "Fatal": 148,
+        "Total": 184
+      },
+      "Other Equipment": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 11
+      },
+      "Other Hazardous Violation": {
+        "Property": 70,
+        "Injury": 70,
+        "Fatal": 70,
+        "Total": 88
+      },
+      "Other Improper Driving": {
+        "Property": 26,
+        "Injury": 26,
+        "Fatal": 26,
+        "Total": 31
+      },
+      "Other than Driver or Ped": {
+        "Property": 217,
+        "Injury": 217,
+        "Fatal": 217,
+        "Total": 269
+      },
+      "Pedestrian Right of Way": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 15
+      },
+      "Pedestrian Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 41
+      },
+      "Traffic Signals and Signs": {
+        "Property": 123,
+        "Injury": 123,
+        "Fatal": 123,
+        "Total": 319
+      },
+      "Unsafe Lane Change": {
+        "Property": 297,
+        "Injury": 297,
+        "Fatal": 297,
+        "Total": 386
+      },
+      "Unsafe Speed": {
+        "Property": 1485,
+        "Injury": 1485,
+        "Fatal": 1485,
+        "Total": 2341
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 141,
+        "Injury": 141,
+        "Fatal": 141,
+        "Total": 164
+      },
+      "Wrong Side of Road": {
+        "Property": 66,
+        "Injury": 66,
+        "Fatal": 66,
+        "Total": 127
+      }
+    }
+  },
+  {
+    "County": "Glenn",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 14,
+        "Injury": 14,
+        "Fatal": 14,
+        "Total": 22
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 16,
+        "Injury": 16,
+        "Fatal": 16,
+        "Total": 39
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 5
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 5
+      },
+      "Improper Turning": {
+        "Property": 88,
+        "Injury": 88,
+        "Fatal": 88,
+        "Total": 137
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 5
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Other Hazardous Violation": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Other Improper Driving": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other than Driver or Ped": {
+        "Property": 25,
+        "Injury": 25,
+        "Fatal": 25,
+        "Total": 29
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Traffic Signals and Signs": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 9
+      },
+      "Unsafe Lane Change": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 13
+      },
+      "Unsafe Speed": {
+        "Property": 35,
+        "Injury": 35,
+        "Fatal": 35,
+        "Total": 63
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 7
+      },
+      "Wrong Side of Road": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      }
+    }
+  },
+  {
+    "County": "Humboldt",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 74,
+        "Injury": 74,
+        "Fatal": 74,
+        "Total": 157
+      },
+      "Brakes": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 159,
+        "Injury": 159,
+        "Fatal": 159,
+        "Total": 270
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 14
+      },
+      "Hazardous Parking": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 6
+      },
+      "Impeding Traffic": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 3
+      },
+      "Improper Passing": {
+        "Property": 19,
+        "Injury": 19,
+        "Fatal": 19,
+        "Total": 24
+      },
+      "Improper Turning": {
+        "Property": 540,
+        "Injury": 540,
+        "Fatal": 540,
+        "Total": 715
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 63,
+        "Injury": 63,
+        "Fatal": 63,
+        "Total": 71
+      },
+      "Other Equipment": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 10
+      },
+      "Other Hazardous Violation": {
+        "Property": 19,
+        "Injury": 19,
+        "Fatal": 19,
+        "Total": 31
+      },
+      "Other Improper Driving": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 13
+      },
+      "Other than Driver or Ped": {
+        "Property": 101,
+        "Injury": 101,
+        "Fatal": 101,
+        "Total": 125
+      },
+      "Pedestrian Right of Way": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 25
+      },
+      "Pedestrian Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 28
+      },
+      "Traffic Signals and Signs": {
+        "Property": 30,
+        "Injury": 30,
+        "Fatal": 30,
+        "Total": 82
+      },
+      "Unsafe Lane Change": {
+        "Property": 30,
+        "Injury": 30,
+        "Fatal": 30,
+        "Total": 38
+      },
+      "Unsafe Speed": {
+        "Property": 250,
+        "Injury": 250,
+        "Fatal": 250,
+        "Total": 379
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 71,
+        "Injury": 71,
+        "Fatal": 71,
+        "Total": 77
+      },
+      "Wrong Side of Road": {
+        "Property": 42,
+        "Injury": 42,
+        "Fatal": 42,
+        "Total": 74
+      }
+    }
+  },
+  {
+    "County": "Imperial",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 57,
+        "Injury": 57,
+        "Fatal": 57,
+        "Total": 144
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 61,
+        "Injury": 61,
+        "Fatal": 61,
+        "Total": 107
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 11
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Improper Passing": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 9
+      },
+      "Improper Turning": {
+        "Property": 206,
+        "Injury": 206,
+        "Fatal": 206,
+        "Total": 358
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 21
+      },
+      "Other Equipment": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 7
+      },
+      "Other Hazardous Violation": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 15
+      },
+      "Other Improper Driving": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Other than Driver or Ped": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 21
+      },
+      "Pedestrian Right of Way": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 6
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 9
+      },
+      "Traffic Signals and Signs": {
+        "Property": 13,
+        "Injury": 13,
+        "Fatal": 13,
+        "Total": 48
+      },
+      "Unsafe Lane Change": {
+        "Property": 13,
+        "Injury": 13,
+        "Fatal": 13,
+        "Total": 18
+      },
+      "Unsafe Speed": {
+        "Property": 155,
+        "Injury": 155,
+        "Fatal": 155,
+        "Total": 285
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 30,
+        "Injury": 30,
+        "Fatal": 30,
+        "Total": 32
+      },
+      "Wrong Side of Road": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 26
+      }
+    }
+  },
+  {
+    "County": "Inyo",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 27
+      },
+      "Brakes": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 18
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Improper Turning": {
+        "Property": 70,
+        "Injury": 70,
+        "Fatal": 70,
+        "Total": 137
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other Hazardous Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 4
+      },
+      "Other Improper Driving": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 12
+      },
+      "Other than Driver or Ped": {
+        "Property": 32,
+        "Injury": 32,
+        "Fatal": 32,
+        "Total": 43
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Traffic Signals and Signs": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 5
+      },
+      "Unsafe Lane Change": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 6
+      },
+      "Unsafe Speed": {
+        "Property": 41,
+        "Injury": 41,
+        "Fatal": 41,
+        "Total": 75
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 7
+      },
+      "Wrong Side of Road": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 17
+      }
+    }
+  },
+  {
+    "County": "Kern",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 585,
+        "Injury": 585,
+        "Fatal": 585,
+        "Total": 1149
+      },
+      "Brakes": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 5
+      },
+      "DUI": {
+        "Property": 587,
+        "Injury": 587,
+        "Fatal": 587,
+        "Total": 1007
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 72,
+        "Injury": 72,
+        "Fatal": 72,
+        "Total": 90
+      },
+      "Hazardous Parking": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 15
+      },
+      "Impeding Traffic": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Improper Passing": {
+        "Property": 94,
+        "Injury": 94,
+        "Fatal": 94,
+        "Total": 122
+      },
+      "Improper Turning": {
+        "Property": 1964,
+        "Injury": 1964,
+        "Fatal": 1964,
+        "Total": 2735
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Not Stated": {
+        "Property": 170,
+        "Injury": 170,
+        "Fatal": 170,
+        "Total": 223
+      },
+      "Other Equipment": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 28
+      },
+      "Other Hazardous Violation": {
+        "Property": 84,
+        "Injury": 84,
+        "Fatal": 84,
+        "Total": 111
+      },
+      "Other Improper Driving": {
+        "Property": 36,
+        "Injury": 36,
+        "Fatal": 36,
+        "Total": 44
+      },
+      "Other than Driver or Ped": {
+        "Property": 250,
+        "Injury": 250,
+        "Fatal": 250,
+        "Total": 283
+      },
+      "Pedestrian Right of Way": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 46
+      },
+      "Pedestrian Violation": {
+        "Property": 13,
+        "Injury": 13,
+        "Fatal": 13,
+        "Total": 125
+      },
+      "Traffic Signals and Signs": {
+        "Property": 246,
+        "Injury": 246,
+        "Fatal": 246,
+        "Total": 621
+      },
+      "Unsafe Lane Change": {
+        "Property": 358,
+        "Injury": 358,
+        "Fatal": 358,
+        "Total": 456
+      },
+      "Unsafe Speed": {
+        "Property": 1764,
+        "Injury": 1764,
+        "Fatal": 1764,
+        "Total": 2789
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 409,
+        "Injury": 409,
+        "Fatal": 409,
+        "Total": 470
+      },
+      "Wrong Side of Road": {
+        "Property": 107,
+        "Injury": 107,
+        "Fatal": 107,
+        "Total": 245
+      }
+    }
+  },
+  {
+    "County": "Kings",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 137,
+        "Injury": 137,
+        "Fatal": 137,
+        "Total": 263
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 81,
+        "Injury": 81,
+        "Fatal": 81,
+        "Total": 146
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 21,
+        "Injury": 21,
+        "Fatal": 21,
+        "Total": 27
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 19
+      },
+      "Improper Turning": {
+        "Property": 277,
+        "Injury": 277,
+        "Fatal": 277,
+        "Total": 406
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 39,
+        "Injury": 39,
+        "Fatal": 39,
+        "Total": 50
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Other Hazardous Violation": {
+        "Property": 17,
+        "Injury": 17,
+        "Fatal": 17,
+        "Total": 20
+      },
+      "Other Improper Driving": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 7
+      },
+      "Other than Driver or Ped": {
+        "Property": 46,
+        "Injury": 46,
+        "Fatal": 46,
+        "Total": 58
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 18
+      },
+      "Pedestrian Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 8
+      },
+      "Traffic Signals and Signs": {
+        "Property": 51,
+        "Injury": 51,
+        "Fatal": 51,
+        "Total": 107
+      },
+      "Unsafe Lane Change": {
+        "Property": 36,
+        "Injury": 36,
+        "Fatal": 36,
+        "Total": 44
+      },
+      "Unsafe Speed": {
+        "Property": 217,
+        "Injury": 217,
+        "Fatal": 217,
+        "Total": 361
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 73,
+        "Injury": 73,
+        "Fatal": 73,
+        "Total": 84
+      },
+      "Wrong Side of Road": {
+        "Property": 22,
+        "Injury": 22,
+        "Fatal": 22,
+        "Total": 47
+      }
+    }
+  },
+  {
+    "County": "Lake",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 36,
+        "Injury": 36,
+        "Fatal": 36,
+        "Total": 68
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 41,
+        "Injury": 41,
+        "Fatal": 41,
+        "Total": 97
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 5
+      },
+      "Hazardous Parking": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Improper Passing": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 6
+      },
+      "Improper Turning": {
+        "Property": 135,
+        "Injury": 135,
+        "Fatal": 135,
+        "Total": 228
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 11
+      },
+      "Other Equipment": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Other Hazardous Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Other Improper Driving": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Other than Driver or Ped": {
+        "Property": 21,
+        "Injury": 21,
+        "Fatal": 21,
+        "Total": 33
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 8
+      },
+      "Traffic Signals and Signs": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 8
+      },
+      "Unsafe Lane Change": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Unsafe Speed": {
+        "Property": 63,
+        "Injury": 63,
+        "Fatal": 63,
+        "Total": 126
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 25
+      },
+      "Wrong Side of Road": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 24
+      }
+    }
+  },
+  {
+    "County": "Lassen",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 11
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 15
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 4
+      },
+      "Improper Turning": {
+        "Property": 47,
+        "Injury": 47,
+        "Fatal": 47,
+        "Total": 87
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 5
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Other Improper Driving": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 5
+      },
+      "Other than Driver or Ped": {
+        "Property": 51,
+        "Injury": 51,
+        "Fatal": 51,
+        "Total": 56
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Traffic Signals and Signs": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Unsafe Lane Change": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Unsafe Speed": {
+        "Property": 67,
+        "Injury": 67,
+        "Fatal": 67,
+        "Total": 111
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 4
+      },
+      "Wrong Side of Road": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 16
+      }
+    }
+  },
+  {
+    "County": "Los Angeles",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 7426,
+        "Injury": 7426,
+        "Fatal": 7426,
+        "Total": 20129
+      },
+      "Brakes": {
+        "Property": 23,
+        "Injury": 23,
+        "Fatal": 23,
+        "Total": 34
+      },
+      "DUI": {
+        "Property": 4705,
+        "Injury": 4705,
+        "Fatal": 4705,
+        "Total": 7883
+      },
+      "Fell Asleep": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 7
+      },
+      "Following Too Closely": {
+        "Property": 2099,
+        "Injury": 2099,
+        "Fatal": 2099,
+        "Total": 3964
+      },
+      "Hazardous Parking": {
+        "Property": 125,
+        "Injury": 125,
+        "Fatal": 125,
+        "Total": 161
+      },
+      "Impeding Traffic": {
+        "Property": 36,
+        "Injury": 36,
+        "Fatal": 36,
+        "Total": 72
+      },
+      "Improper Passing": {
+        "Property": 1283,
+        "Injury": 1283,
+        "Fatal": 1283,
+        "Total": 1720
+      },
+      "Improper Turning": {
+        "Property": 16843,
+        "Injury": 16843,
+        "Fatal": 16843,
+        "Total": 23822
+      },
+      "Lights": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 10
+      },
+      "Not Stated": {
+        "Property": 5118,
+        "Injury": 5118,
+        "Fatal": 5118,
+        "Total": 7124
+      },
+      "Other Equipment": {
+        "Property": 59,
+        "Injury": 59,
+        "Fatal": 59,
+        "Total": 79
+      },
+      "Other Hazardous Violation": {
+        "Property": 1145,
+        "Injury": 1145,
+        "Fatal": 1145,
+        "Total": 1697
+      },
+      "Other Improper Driving": {
+        "Property": 569,
+        "Injury": 569,
+        "Fatal": 569,
+        "Total": 851
+      },
+      "Other than Driver or Ped": {
+        "Property": 1742,
+        "Injury": 1742,
+        "Fatal": 1742,
+        "Total": 2466
+      },
+      "Pedestrian Right of Way": {
+        "Property": 55,
+        "Injury": 55,
+        "Fatal": 55,
+        "Total": 2253
+      },
+      "Pedestrian Violation": {
+        "Property": 70,
+        "Injury": 70,
+        "Fatal": 70,
+        "Total": 1874
+      },
+      "Traffic Signals and Signs": {
+        "Property": 2855,
+        "Injury": 2855,
+        "Fatal": 2855,
+        "Total": 8460
+      },
+      "Unsafe Lane Change": {
+        "Property": 11396,
+        "Injury": 11396,
+        "Fatal": 11396,
+        "Total": 14647
+      },
+      "Unsafe Speed": {
+        "Property": 32052,
+        "Injury": 32052,
+        "Fatal": 32052,
+        "Total": 50648
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 4662,
+        "Injury": 4662,
+        "Fatal": 4662,
+        "Total": 5818
+      },
+      "Wrong Side of Road": {
+        "Property": 1062,
+        "Injury": 1062,
+        "Fatal": 1062,
+        "Total": 2526
+      }
+    }
+  },
+  {
+    "County": "Madera",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 249,
+        "Injury": 249,
+        "Fatal": 249,
+        "Total": 372
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 134,
+        "Injury": 134,
+        "Fatal": 134,
+        "Total": 229
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 19,
+        "Injury": 19,
+        "Fatal": 19,
+        "Total": 22
+      },
+      "Hazardous Parking": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Impeding Traffic": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Improper Passing": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 29
+      },
+      "Improper Turning": {
+        "Property": 509,
+        "Injury": 509,
+        "Fatal": 509,
+        "Total": 701
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 40,
+        "Injury": 40,
+        "Fatal": 40,
+        "Total": 51
+      },
+      "Other Equipment": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 7
+      },
+      "Other Hazardous Violation": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 23
+      },
+      "Other Improper Driving": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 10
+      },
+      "Other than Driver or Ped": {
+        "Property": 69,
+        "Injury": 69,
+        "Fatal": 69,
+        "Total": 93
+      },
+      "Pedestrian Right of Way": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 9
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 14
+      },
+      "Traffic Signals and Signs": {
+        "Property": 47,
+        "Injury": 47,
+        "Fatal": 47,
+        "Total": 91
+      },
+      "Unsafe Lane Change": {
+        "Property": 65,
+        "Injury": 65,
+        "Fatal": 65,
+        "Total": 82
+      },
+      "Unsafe Speed": {
+        "Property": 456,
+        "Injury": 456,
+        "Fatal": 456,
+        "Total": 659
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 102,
+        "Injury": 102,
+        "Fatal": 102,
+        "Total": 109
+      },
+      "Wrong Side of Road": {
+        "Property": 41,
+        "Injury": 41,
+        "Fatal": 41,
+        "Total": 69
+      }
+    }
+  },
+  {
+    "County": "Marin",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 125,
+        "Injury": 125,
+        "Fatal": 125,
+        "Total": 226
+      },
+      "Brakes": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 135,
+        "Injury": 135,
+        "Fatal": 135,
+        "Total": 223
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 33,
+        "Injury": 33,
+        "Fatal": 33,
+        "Total": 55
+      },
+      "Hazardous Parking": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Improper Passing": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 27
+      },
+      "Improper Turning": {
+        "Property": 459,
+        "Injury": 459,
+        "Fatal": 459,
+        "Total": 655
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 53,
+        "Injury": 53,
+        "Fatal": 53,
+        "Total": 84
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other Hazardous Violation": {
+        "Property": 33,
+        "Injury": 33,
+        "Fatal": 33,
+        "Total": 46
+      },
+      "Other Improper Driving": {
+        "Property": 36,
+        "Injury": 36,
+        "Fatal": 36,
+        "Total": 55
+      },
+      "Other than Driver or Ped": {
+        "Property": 62,
+        "Injury": 62,
+        "Fatal": 62,
+        "Total": 85
+      },
+      "Pedestrian Right of Way": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 42
+      },
+      "Pedestrian Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 22
+      },
+      "Traffic Signals and Signs": {
+        "Property": 70,
+        "Injury": 70,
+        "Fatal": 70,
+        "Total": 111
+      },
+      "Unsafe Lane Change": {
+        "Property": 202,
+        "Injury": 202,
+        "Fatal": 202,
+        "Total": 258
+      },
+      "Unsafe Speed": {
+        "Property": 521,
+        "Injury": 521,
+        "Fatal": 521,
+        "Total": 1016
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 116,
+        "Injury": 116,
+        "Fatal": 116,
+        "Total": 142
+      },
+      "Wrong Side of Road": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 48
+      }
+    }
+  },
+  {
+    "County": "Mariposa",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 22
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 33
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Hazardous Parking": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Improper Turning": {
+        "Property": 66,
+        "Injury": 66,
+        "Fatal": 66,
+        "Total": 113
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Other Improper Driving": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 6
+      },
+      "Other than Driver or Ped": {
+        "Property": 21,
+        "Injury": 21,
+        "Fatal": 21,
+        "Total": 26
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Traffic Signals and Signs": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Unsafe Lane Change": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Unsafe Speed": {
+        "Property": 28,
+        "Injury": 28,
+        "Fatal": 28,
+        "Total": 45
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 11
+      },
+      "Wrong Side of Road": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 11
+      }
+    }
+  },
+  {
+    "County": "Mendocino",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 54,
+        "Injury": 54,
+        "Fatal": 54,
+        "Total": 93
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 74,
+        "Injury": 74,
+        "Fatal": 74,
+        "Total": 164
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 9
+      },
+      "Hazardous Parking": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 4
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Improper Passing": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 13
+      },
+      "Improper Turning": {
+        "Property": 321,
+        "Injury": 321,
+        "Fatal": 321,
+        "Total": 459
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 30,
+        "Injury": 30,
+        "Fatal": 30,
+        "Total": 37
+      },
+      "Other Equipment": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 7
+      },
+      "Other Hazardous Violation": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 16
+      },
+      "Other Improper Driving": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Other than Driver or Ped": {
+        "Property": 99,
+        "Injury": 99,
+        "Fatal": 99,
+        "Total": 113
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 7
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 9
+      },
+      "Traffic Signals and Signs": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 27
+      },
+      "Unsafe Lane Change": {
+        "Property": 22,
+        "Injury": 22,
+        "Fatal": 22,
+        "Total": 24
+      },
+      "Unsafe Speed": {
+        "Property": 270,
+        "Injury": 270,
+        "Fatal": 270,
+        "Total": 402
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 33,
+        "Injury": 33,
+        "Fatal": 33,
+        "Total": 39
+      },
+      "Wrong Side of Road": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 41
+      }
+    }
+  },
+  {
+    "County": "Merced",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 272,
+        "Injury": 272,
+        "Fatal": 272,
+        "Total": 523
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 161,
+        "Injury": 161,
+        "Fatal": 161,
+        "Total": 326
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 34,
+        "Injury": 34,
+        "Fatal": 34,
+        "Total": 44
+      },
+      "Hazardous Parking": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 5
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Improper Passing": {
+        "Property": 30,
+        "Injury": 30,
+        "Fatal": 30,
+        "Total": 46
+      },
+      "Improper Turning": {
+        "Property": 825,
+        "Injury": 825,
+        "Fatal": 825,
+        "Total": 1152
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Not Stated": {
+        "Property": 113,
+        "Injury": 113,
+        "Fatal": 113,
+        "Total": 146
+      },
+      "Other Equipment": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 8
+      },
+      "Other Hazardous Violation": {
+        "Property": 25,
+        "Injury": 25,
+        "Fatal": 25,
+        "Total": 33
+      },
+      "Other Improper Driving": {
+        "Property": 21,
+        "Injury": 21,
+        "Fatal": 21,
+        "Total": 32
+      },
+      "Other than Driver or Ped": {
+        "Property": 99,
+        "Injury": 99,
+        "Fatal": 99,
+        "Total": 128
+      },
+      "Pedestrian Right of Way": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 31
+      },
+      "Pedestrian Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 45
+      },
+      "Traffic Signals and Signs": {
+        "Property": 84,
+        "Injury": 84,
+        "Fatal": 84,
+        "Total": 193
+      },
+      "Unsafe Lane Change": {
+        "Property": 151,
+        "Injury": 151,
+        "Fatal": 151,
+        "Total": 177
+      },
+      "Unsafe Speed": {
+        "Property": 629,
+        "Injury": 629,
+        "Fatal": 629,
+        "Total": 983
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 129,
+        "Injury": 129,
+        "Fatal": 129,
+        "Total": 155
+      },
+      "Wrong Side of Road": {
+        "Property": 60,
+        "Injury": 60,
+        "Fatal": 60,
+        "Total": 112
+      }
+    }
+  },
+  {
+    "County": "Modoc",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 10
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Hazardous Parking": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Turning": {
+        "Property": 19,
+        "Injury": 19,
+        "Fatal": 19,
+        "Total": 33
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other Improper Driving": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other than Driver or Ped": {
+        "Property": 37,
+        "Injury": 37,
+        "Fatal": 37,
+        "Total": 41
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Traffic Signals and Signs": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Unsafe Lane Change": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Unsafe Speed": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 28
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Wrong Side of Road": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 5
+      }
+    }
+  },
+  {
+    "County": "Mono",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 11
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 25
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Hazardous Parking": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Improper Turning": {
+        "Property": 55,
+        "Injury": 55,
+        "Fatal": 55,
+        "Total": 87
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Improper Driving": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Other than Driver or Ped": {
+        "Property": 119,
+        "Injury": 119,
+        "Fatal": 119,
+        "Total": 132
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Traffic Signals and Signs": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Unsafe Lane Change": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Unsafe Speed": {
+        "Property": 76,
+        "Injury": 76,
+        "Fatal": 76,
+        "Total": 111
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 7
+      },
+      "Wrong Side of Road": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      }
+    }
+  },
+  {
+    "County": "Monterey",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 392,
+        "Injury": 392,
+        "Fatal": 392,
+        "Total": 698
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 272,
+        "Injury": 272,
+        "Fatal": 272,
+        "Total": 457
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 56,
+        "Injury": 56,
+        "Fatal": 56,
+        "Total": 104
+      },
+      "Hazardous Parking": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 10
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Improper Passing": {
+        "Property": 61,
+        "Injury": 61,
+        "Fatal": 61,
+        "Total": 77
+      },
+      "Improper Turning": {
+        "Property": 1068,
+        "Injury": 1068,
+        "Fatal": 1068,
+        "Total": 1379
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Not Stated": {
+        "Property": 221,
+        "Injury": 221,
+        "Fatal": 221,
+        "Total": 257
+      },
+      "Other Equipment": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 12
+      },
+      "Other Hazardous Violation": {
+        "Property": 49,
+        "Injury": 49,
+        "Fatal": 49,
+        "Total": 64
+      },
+      "Other Improper Driving": {
+        "Property": 59,
+        "Injury": 59,
+        "Fatal": 59,
+        "Total": 74
+      },
+      "Other than Driver or Ped": {
+        "Property": 157,
+        "Injury": 157,
+        "Fatal": 157,
+        "Total": 180
+      },
+      "Pedestrian Right of Way": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 65
+      },
+      "Pedestrian Violation": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 50
+      },
+      "Traffic Signals and Signs": {
+        "Property": 126,
+        "Injury": 126,
+        "Fatal": 126,
+        "Total": 224
+      },
+      "Unsafe Lane Change": {
+        "Property": 245,
+        "Injury": 245,
+        "Fatal": 245,
+        "Total": 306
+      },
+      "Unsafe Speed": {
+        "Property": 1146,
+        "Injury": 1146,
+        "Fatal": 1146,
+        "Total": 1788
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 307,
+        "Injury": 307,
+        "Fatal": 307,
+        "Total": 350
+      },
+      "Wrong Side of Road": {
+        "Property": 89,
+        "Injury": 89,
+        "Fatal": 89,
+        "Total": 149
+      }
+    }
+  },
+  {
+    "County": "Napa",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 56,
+        "Injury": 56,
+        "Fatal": 56,
+        "Total": 161
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 107,
+        "Injury": 107,
+        "Fatal": 107,
+        "Total": 171
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 25
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Improper Passing": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 14
+      },
+      "Improper Turning": {
+        "Property": 239,
+        "Injury": 239,
+        "Fatal": 239,
+        "Total": 392
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 78,
+        "Injury": 78,
+        "Fatal": 78,
+        "Total": 96
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Other Hazardous Violation": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 15
+      },
+      "Other Improper Driving": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 14
+      },
+      "Other than Driver or Ped": {
+        "Property": 24,
+        "Injury": 24,
+        "Fatal": 24,
+        "Total": 42
+      },
+      "Pedestrian Right of Way": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 21
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 6
+      },
+      "Traffic Signals and Signs": {
+        "Property": 16,
+        "Injury": 16,
+        "Fatal": 16,
+        "Total": 55
+      },
+      "Unsafe Lane Change": {
+        "Property": 38,
+        "Injury": 38,
+        "Fatal": 38,
+        "Total": 53
+      },
+      "Unsafe Speed": {
+        "Property": 360,
+        "Injury": 360,
+        "Fatal": 360,
+        "Total": 616
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 60,
+        "Injury": 60,
+        "Fatal": 60,
+        "Total": 72
+      },
+      "Wrong Side of Road": {
+        "Property": 32,
+        "Injury": 32,
+        "Fatal": 32,
+        "Total": 80
+      }
+    }
+  },
+  {
+    "County": "Nevada",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 42,
+        "Injury": 42,
+        "Fatal": 42,
+        "Total": 71
+      },
+      "Brakes": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 72,
+        "Injury": 72,
+        "Fatal": 72,
+        "Total": 140
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 8
+      },
+      "Hazardous Parking": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 13,
+        "Injury": 13,
+        "Fatal": 13,
+        "Total": 15
+      },
+      "Improper Turning": {
+        "Property": 183,
+        "Injury": 183,
+        "Fatal": 183,
+        "Total": 294
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 24,
+        "Injury": 24,
+        "Fatal": 24,
+        "Total": 32
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 14
+      },
+      "Other Improper Driving": {
+        "Property": 14,
+        "Injury": 14,
+        "Fatal": 14,
+        "Total": 19
+      },
+      "Other than Driver or Ped": {
+        "Property": 51,
+        "Injury": 51,
+        "Fatal": 51,
+        "Total": 67
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 3
+      },
+      "Traffic Signals and Signs": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 12
+      },
+      "Unsafe Lane Change": {
+        "Property": 36,
+        "Injury": 36,
+        "Fatal": 36,
+        "Total": 43
+      },
+      "Unsafe Speed": {
+        "Property": 303,
+        "Injury": 303,
+        "Fatal": 303,
+        "Total": 453
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 32,
+        "Injury": 32,
+        "Fatal": 32,
+        "Total": 34
+      },
+      "Wrong Side of Road": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 41
+      }
+    }
+  },
+  {
+    "County": "Orange",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 1040,
+        "Injury": 1040,
+        "Fatal": 1040,
+        "Total": 3585
+      },
+      "Brakes": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 5
+      },
+      "DUI": {
+        "Property": 1823,
+        "Injury": 1823,
+        "Fatal": 1823,
+        "Total": 2871
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Following Too Closely": {
+        "Property": 112,
+        "Injury": 112,
+        "Fatal": 112,
+        "Total": 234
+      },
+      "Hazardous Parking": {
+        "Property": 24,
+        "Injury": 24,
+        "Fatal": 24,
+        "Total": 31
+      },
+      "Impeding Traffic": {
+        "Property": 13,
+        "Injury": 13,
+        "Fatal": 13,
+        "Total": 22
+      },
+      "Improper Passing": {
+        "Property": 138,
+        "Injury": 138,
+        "Fatal": 138,
+        "Total": 215
+      },
+      "Improper Turning": {
+        "Property": 3800,
+        "Injury": 3800,
+        "Fatal": 3800,
+        "Total": 5595
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 4
+      },
+      "Not Stated": {
+        "Property": 702,
+        "Injury": 702,
+        "Fatal": 702,
+        "Total": 1260
+      },
+      "Other Equipment": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 14
+      },
+      "Other Hazardous Violation": {
+        "Property": 179,
+        "Injury": 179,
+        "Fatal": 179,
+        "Total": 294
+      },
+      "Other Improper Driving": {
+        "Property": 126,
+        "Injury": 126,
+        "Fatal": 126,
+        "Total": 177
+      },
+      "Other than Driver or Ped": {
+        "Property": 486,
+        "Injury": 486,
+        "Fatal": 486,
+        "Total": 647
+      },
+      "Pedestrian Right of Way": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 309
+      },
+      "Pedestrian Violation": {
+        "Property": 13,
+        "Injury": 13,
+        "Fatal": 13,
+        "Total": 317
+      },
+      "Traffic Signals and Signs": {
+        "Property": 546,
+        "Injury": 546,
+        "Fatal": 546,
+        "Total": 2089
+      },
+      "Unsafe Lane Change": {
+        "Property": 2224,
+        "Injury": 2224,
+        "Fatal": 2224,
+        "Total": 2878
+      },
+      "Unsafe Speed": {
+        "Property": 7726,
+        "Injury": 7726,
+        "Fatal": 7726,
+        "Total": 13138
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 700,
+        "Injury": 700,
+        "Fatal": 700,
+        "Total": 913
+      },
+      "Wrong Side of Road": {
+        "Property": 99,
+        "Injury": 99,
+        "Fatal": 99,
+        "Total": 416
+      }
+    }
+  },
+  {
+    "County": "Placer",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 130,
+        "Injury": 130,
+        "Fatal": 130,
+        "Total": 212
+      },
+      "Brakes": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 136,
+        "Injury": 136,
+        "Fatal": 136,
+        "Total": 250
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 24,
+        "Injury": 24,
+        "Fatal": 24,
+        "Total": 44
+      },
+      "Hazardous Parking": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Impeding Traffic": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Improper Passing": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 17
+      },
+      "Improper Turning": {
+        "Property": 391,
+        "Injury": 391,
+        "Fatal": 391,
+        "Total": 592
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 88,
+        "Injury": 88,
+        "Fatal": 88,
+        "Total": 110
+      },
+      "Other Equipment": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 3
+      },
+      "Other Hazardous Violation": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 22
+      },
+      "Other Improper Driving": {
+        "Property": 28,
+        "Injury": 28,
+        "Fatal": 28,
+        "Total": 30
+      },
+      "Other than Driver or Ped": {
+        "Property": 80,
+        "Injury": 80,
+        "Fatal": 80,
+        "Total": 101
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 5
+      },
+      "Pedestrian Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 14
+      },
+      "Traffic Signals and Signs": {
+        "Property": 78,
+        "Injury": 78,
+        "Fatal": 78,
+        "Total": 126
+      },
+      "Unsafe Lane Change": {
+        "Property": 165,
+        "Injury": 165,
+        "Fatal": 165,
+        "Total": 220
+      },
+      "Unsafe Speed": {
+        "Property": 723,
+        "Injury": 723,
+        "Fatal": 723,
+        "Total": 1134
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 80,
+        "Injury": 80,
+        "Fatal": 80,
+        "Total": 93
+      },
+      "Wrong Side of Road": {
+        "Property": 38,
+        "Injury": 38,
+        "Fatal": 38,
+        "Total": 66
+      }
+    }
+  },
+  {
+    "County": "Plumas",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 16
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 37
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Improper Turning": {
+        "Property": 57,
+        "Injury": 57,
+        "Fatal": 57,
+        "Total": 85
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 4
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Other Improper Driving": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Other than Driver or Ped": {
+        "Property": 37,
+        "Injury": 37,
+        "Fatal": 37,
+        "Total": 43
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Traffic Signals and Signs": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Unsafe Lane Change": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Unsafe Speed": {
+        "Property": 48,
+        "Injury": 48,
+        "Fatal": 48,
+        "Total": 76
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 10
+      },
+      "Wrong Side of Road": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 6
+      }
+    }
+  },
+  {
+    "County": "Riverside",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 945,
+        "Injury": 945,
+        "Fatal": 945,
+        "Total": 2353
+      },
+      "Brakes": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "DUI": {
+        "Property": 1230,
+        "Injury": 1230,
+        "Fatal": 1230,
+        "Total": 2205
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 124,
+        "Injury": 124,
+        "Fatal": 124,
+        "Total": 191
+      },
+      "Hazardous Parking": {
+        "Property": 16,
+        "Injury": 16,
+        "Fatal": 16,
+        "Total": 20
+      },
+      "Impeding Traffic": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 10
+      },
+      "Improper Passing": {
+        "Property": 177,
+        "Injury": 177,
+        "Fatal": 177,
+        "Total": 230
+      },
+      "Improper Turning": {
+        "Property": 4256,
+        "Injury": 4256,
+        "Fatal": 4256,
+        "Total": 6049
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 379,
+        "Injury": 379,
+        "Fatal": 379,
+        "Total": 583
+      },
+      "Other Equipment": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 21
+      },
+      "Other Hazardous Violation": {
+        "Property": 206,
+        "Injury": 206,
+        "Fatal": 206,
+        "Total": 271
+      },
+      "Other Improper Driving": {
+        "Property": 106,
+        "Injury": 106,
+        "Fatal": 106,
+        "Total": 161
+      },
+      "Other than Driver or Ped": {
+        "Property": 505,
+        "Injury": 505,
+        "Fatal": 505,
+        "Total": 656
+      },
+      "Pedestrian Right of Way": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 155
+      },
+      "Pedestrian Violation": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 243
+      },
+      "Traffic Signals and Signs": {
+        "Property": 592,
+        "Injury": 592,
+        "Fatal": 592,
+        "Total": 1602
+      },
+      "Unsafe Lane Change": {
+        "Property": 1369,
+        "Injury": 1369,
+        "Fatal": 1369,
+        "Total": 1778
+      },
+      "Unsafe Speed": {
+        "Property": 5407,
+        "Injury": 5407,
+        "Fatal": 5407,
+        "Total": 9128
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 582,
+        "Injury": 582,
+        "Fatal": 582,
+        "Total": 737
+      },
+      "Wrong Side of Road": {
+        "Property": 163,
+        "Injury": 163,
+        "Fatal": 163,
+        "Total": 459
+      }
+    }
+  },
+  {
+    "County": "Sacramento",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 984,
+        "Injury": 984,
+        "Fatal": 984,
+        "Total": 2079
+      },
+      "Brakes": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "DUI": {
+        "Property": 787,
+        "Injury": 787,
+        "Fatal": 787,
+        "Total": 1427
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 85,
+        "Injury": 85,
+        "Fatal": 85,
+        "Total": 126
+      },
+      "Hazardous Parking": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 12
+      },
+      "Impeding Traffic": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 11
+      },
+      "Improper Passing": {
+        "Property": 116,
+        "Injury": 116,
+        "Fatal": 116,
+        "Total": 149
+      },
+      "Improper Turning": {
+        "Property": 2130,
+        "Injury": 2130,
+        "Fatal": 2130,
+        "Total": 3255
+      },
+      "Lights": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 218,
+        "Injury": 218,
+        "Fatal": 218,
+        "Total": 430
+      },
+      "Other Equipment": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 21
+      },
+      "Other Hazardous Violation": {
+        "Property": 95,
+        "Injury": 95,
+        "Fatal": 95,
+        "Total": 167
+      },
+      "Other Improper Driving": {
+        "Property": 60,
+        "Injury": 60,
+        "Fatal": 60,
+        "Total": 92
+      },
+      "Other than Driver or Ped": {
+        "Property": 216,
+        "Injury": 216,
+        "Fatal": 216,
+        "Total": 324
+      },
+      "Pedestrian Right of Way": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 106
+      },
+      "Pedestrian Violation": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 214
+      },
+      "Traffic Signals and Signs": {
+        "Property": 435,
+        "Injury": 435,
+        "Fatal": 435,
+        "Total": 1229
+      },
+      "Unsafe Lane Change": {
+        "Property": 1353,
+        "Injury": 1353,
+        "Fatal": 1353,
+        "Total": 1680
+      },
+      "Unsafe Speed": {
+        "Property": 4301,
+        "Injury": 4301,
+        "Fatal": 4301,
+        "Total": 7261
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 423,
+        "Injury": 423,
+        "Fatal": 423,
+        "Total": 547
+      },
+      "Wrong Side of Road": {
+        "Property": 132,
+        "Injury": 132,
+        "Fatal": 132,
+        "Total": 423
+      }
+    }
+  },
+  {
+    "County": "San Benito",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 36,
+        "Injury": 36,
+        "Fatal": 36,
+        "Total": 78
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 58,
+        "Injury": 58,
+        "Fatal": 58,
+        "Total": 86
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 9
+      },
+      "Hazardous Parking": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 13
+      },
+      "Improper Turning": {
+        "Property": 111,
+        "Injury": 111,
+        "Fatal": 111,
+        "Total": 177
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 8
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other Hazardous Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 4
+      },
+      "Other Improper Driving": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 13
+      },
+      "Other than Driver or Ped": {
+        "Property": 24,
+        "Injury": 24,
+        "Fatal": 24,
+        "Total": 29
+      },
+      "Pedestrian Right of Way": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 4
+      },
+      "Traffic Signals and Signs": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 36
+      },
+      "Unsafe Lane Change": {
+        "Property": 21,
+        "Injury": 21,
+        "Fatal": 21,
+        "Total": 24
+      },
+      "Unsafe Speed": {
+        "Property": 151,
+        "Injury": 151,
+        "Fatal": 151,
+        "Total": 269
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 17,
+        "Injury": 17,
+        "Fatal": 17,
+        "Total": 19
+      },
+      "Wrong Side of Road": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 35
+      }
+    }
+  },
+  {
+    "County": "San Bernardino",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 1639,
+        "Injury": 1639,
+        "Fatal": 1639,
+        "Total": 3100
+      },
+      "Brakes": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 9
+      },
+      "DUI": {
+        "Property": 1215,
+        "Injury": 1215,
+        "Fatal": 1215,
+        "Total": 2004
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 125,
+        "Injury": 125,
+        "Fatal": 125,
+        "Total": 203
+      },
+      "Hazardous Parking": {
+        "Property": 23,
+        "Injury": 23,
+        "Fatal": 23,
+        "Total": 32
+      },
+      "Impeding Traffic": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 20
+      },
+      "Improper Passing": {
+        "Property": 202,
+        "Injury": 202,
+        "Fatal": 202,
+        "Total": 287
+      },
+      "Improper Turning": {
+        "Property": 3827,
+        "Injury": 3827,
+        "Fatal": 3827,
+        "Total": 5642
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 632,
+        "Injury": 632,
+        "Fatal": 632,
+        "Total": 877
+      },
+      "Other Equipment": {
+        "Property": 29,
+        "Injury": 29,
+        "Fatal": 29,
+        "Total": 37
+      },
+      "Other Hazardous Violation": {
+        "Property": 218,
+        "Injury": 218,
+        "Fatal": 218,
+        "Total": 308
+      },
+      "Other Improper Driving": {
+        "Property": 119,
+        "Injury": 119,
+        "Fatal": 119,
+        "Total": 169
+      },
+      "Other than Driver or Ped": {
+        "Property": 524,
+        "Injury": 524,
+        "Fatal": 524,
+        "Total": 670
+      },
+      "Pedestrian Right of Way": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 137
+      },
+      "Pedestrian Violation": {
+        "Property": 24,
+        "Injury": 24,
+        "Fatal": 24,
+        "Total": 287
+      },
+      "Traffic Signals and Signs": {
+        "Property": 829,
+        "Injury": 829,
+        "Fatal": 829,
+        "Total": 1709
+      },
+      "Unsafe Lane Change": {
+        "Property": 1631,
+        "Injury": 1631,
+        "Fatal": 1631,
+        "Total": 2037
+      },
+      "Unsafe Speed": {
+        "Property": 6345,
+        "Injury": 6345,
+        "Fatal": 6345,
+        "Total": 9773
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 592,
+        "Injury": 592,
+        "Fatal": 592,
+        "Total": 686
+      },
+      "Wrong Side of Road": {
+        "Property": 304,
+        "Injury": 304,
+        "Fatal": 304,
+        "Total": 576
+      }
+    }
+  },
+  {
+    "County": "San Diego",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 613,
+        "Injury": 613,
+        "Fatal": 613,
+        "Total": 2418
+      },
+      "Brakes": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "DUI": {
+        "Property": 1216,
+        "Injury": 1216,
+        "Fatal": 1216,
+        "Total": 2224
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 178,
+        "Injury": 178,
+        "Fatal": 178,
+        "Total": 623
+      },
+      "Hazardous Parking": {
+        "Property": 28,
+        "Injury": 28,
+        "Fatal": 28,
+        "Total": 39
+      },
+      "Impeding Traffic": {
+        "Property": 17,
+        "Injury": 17,
+        "Fatal": 17,
+        "Total": 30
+      },
+      "Improper Passing": {
+        "Property": 143,
+        "Injury": 143,
+        "Fatal": 143,
+        "Total": 238
+      },
+      "Improper Turning": {
+        "Property": 2882,
+        "Injury": 2882,
+        "Fatal": 2882,
+        "Total": 5413
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 7
+      },
+      "Not Stated": {
+        "Property": 371,
+        "Injury": 371,
+        "Fatal": 371,
+        "Total": 785
+      },
+      "Other Equipment": {
+        "Property": 16,
+        "Injury": 16,
+        "Fatal": 16,
+        "Total": 29
+      },
+      "Other Hazardous Violation": {
+        "Property": 215,
+        "Injury": 215,
+        "Fatal": 215,
+        "Total": 405
+      },
+      "Other Improper Driving": {
+        "Property": 97,
+        "Injury": 97,
+        "Fatal": 97,
+        "Total": 169
+      },
+      "Other than Driver or Ped": {
+        "Property": 395,
+        "Injury": 395,
+        "Fatal": 395,
+        "Total": 589
+      },
+      "Pedestrian Right of Way": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 378
+      },
+      "Pedestrian Violation": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 435
+      },
+      "Traffic Signals and Signs": {
+        "Property": 197,
+        "Injury": 197,
+        "Fatal": 197,
+        "Total": 1383
+      },
+      "Unsafe Lane Change": {
+        "Property": 1345,
+        "Injury": 1345,
+        "Fatal": 1345,
+        "Total": 1887
+      },
+      "Unsafe Speed": {
+        "Property": 4855,
+        "Injury": 4855,
+        "Fatal": 4855,
+        "Total": 9855
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 392,
+        "Injury": 392,
+        "Fatal": 392,
+        "Total": 663
+      },
+      "Wrong Side of Road": {
+        "Property": 141,
+        "Injury": 141,
+        "Fatal": 141,
+        "Total": 410
+      }
+    }
+  },
+  {
+    "County": "San Francisco",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 87,
+        "Injury": 87,
+        "Fatal": 87,
+        "Total": 534
+      },
+      "Brakes": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 4
+      },
+      "DUI": {
+        "Property": 189,
+        "Injury": 189,
+        "Fatal": 189,
+        "Total": 346
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 64,
+        "Injury": 64,
+        "Fatal": 64,
+        "Total": 231
+      },
+      "Hazardous Parking": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 22
+      },
+      "Impeding Traffic": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 16
+      },
+      "Improper Passing": {
+        "Property": 69,
+        "Injury": 69,
+        "Fatal": 69,
+        "Total": 140
+      },
+      "Improper Turning": {
+        "Property": 367,
+        "Injury": 367,
+        "Fatal": 367,
+        "Total": 796
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 195,
+        "Injury": 195,
+        "Fatal": 195,
+        "Total": 431
+      },
+      "Other Equipment": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Other Hazardous Violation": {
+        "Property": 58,
+        "Injury": 58,
+        "Fatal": 58,
+        "Total": 171
+      },
+      "Other Improper Driving": {
+        "Property": 76,
+        "Injury": 76,
+        "Fatal": 76,
+        "Total": 106
+      },
+      "Other than Driver or Ped": {
+        "Property": 54,
+        "Injury": 54,
+        "Fatal": 54,
+        "Total": 105
+      },
+      "Pedestrian Right of Way": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 397
+      },
+      "Pedestrian Violation": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 252
+      },
+      "Traffic Signals and Signs": {
+        "Property": 78,
+        "Injury": 78,
+        "Fatal": 78,
+        "Total": 450
+      },
+      "Unsafe Lane Change": {
+        "Property": 440,
+        "Injury": 440,
+        "Fatal": 440,
+        "Total": 650
+      },
+      "Unsafe Speed": {
+        "Property": 1128,
+        "Injury": 1128,
+        "Fatal": 1128,
+        "Total": 2066
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 222,
+        "Injury": 222,
+        "Fatal": 222,
+        "Total": 321
+      },
+      "Wrong Side of Road": {
+        "Property": 53,
+        "Injury": 53,
+        "Fatal": 53,
+        "Total": 114
+      }
+    }
+  },
+  {
+    "County": "San Joaquin",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 629,
+        "Injury": 629,
+        "Fatal": 629,
+        "Total": 1253
+      },
+      "Brakes": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "DUI": {
+        "Property": 472,
+        "Injury": 472,
+        "Fatal": 472,
+        "Total": 844
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 84,
+        "Injury": 84,
+        "Fatal": 84,
+        "Total": 127
+      },
+      "Hazardous Parking": {
+        "Property": 13,
+        "Injury": 13,
+        "Fatal": 13,
+        "Total": 15
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Improper Passing": {
+        "Property": 67,
+        "Injury": 67,
+        "Fatal": 67,
+        "Total": 92
+      },
+      "Improper Turning": {
+        "Property": 1426,
+        "Injury": 1426,
+        "Fatal": 1426,
+        "Total": 2052
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 3
+      },
+      "Not Stated": {
+        "Property": 157,
+        "Injury": 157,
+        "Fatal": 157,
+        "Total": 219
+      },
+      "Other Equipment": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 20
+      },
+      "Other Hazardous Violation": {
+        "Property": 62,
+        "Injury": 62,
+        "Fatal": 62,
+        "Total": 86
+      },
+      "Other Improper Driving": {
+        "Property": 76,
+        "Injury": 76,
+        "Fatal": 76,
+        "Total": 87
+      },
+      "Other than Driver or Ped": {
+        "Property": 140,
+        "Injury": 140,
+        "Fatal": 140,
+        "Total": 192
+      },
+      "Pedestrian Right of Way": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 86
+      },
+      "Pedestrian Violation": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 106
+      },
+      "Traffic Signals and Signs": {
+        "Property": 336,
+        "Injury": 336,
+        "Fatal": 336,
+        "Total": 740
+      },
+      "Unsafe Lane Change": {
+        "Property": 573,
+        "Injury": 573,
+        "Fatal": 573,
+        "Total": 760
+      },
+      "Unsafe Speed": {
+        "Property": 2721,
+        "Injury": 2721,
+        "Fatal": 2721,
+        "Total": 4080
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 236,
+        "Injury": 236,
+        "Fatal": 236,
+        "Total": 278
+      },
+      "Wrong Side of Road": {
+        "Property": 102,
+        "Injury": 102,
+        "Fatal": 102,
+        "Total": 229
+      }
+    }
+  },
+  {
+    "County": "San Luis Obispo",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 326,
+        "Injury": 326,
+        "Fatal": 326,
+        "Total": 504
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 271,
+        "Injury": 271,
+        "Fatal": 271,
+        "Total": 425
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 33,
+        "Injury": 33,
+        "Fatal": 33,
+        "Total": 46
+      },
+      "Hazardous Parking": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 6
+      },
+      "Impeding Traffic": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Improper Passing": {
+        "Property": 24,
+        "Injury": 24,
+        "Fatal": 24,
+        "Total": 28
+      },
+      "Improper Turning": {
+        "Property": 758,
+        "Injury": 758,
+        "Fatal": 758,
+        "Total": 984
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 87,
+        "Injury": 87,
+        "Fatal": 87,
+        "Total": 108
+      },
+      "Other Equipment": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 5
+      },
+      "Other Hazardous Violation": {
+        "Property": 36,
+        "Injury": 36,
+        "Fatal": 36,
+        "Total": 50
+      },
+      "Other Improper Driving": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 14
+      },
+      "Other than Driver or Ped": {
+        "Property": 138,
+        "Injury": 138,
+        "Fatal": 138,
+        "Total": 171
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 25
+      },
+      "Pedestrian Violation": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 24
+      },
+      "Traffic Signals and Signs": {
+        "Property": 80,
+        "Injury": 80,
+        "Fatal": 80,
+        "Total": 130
+      },
+      "Unsafe Lane Change": {
+        "Property": 137,
+        "Injury": 137,
+        "Fatal": 137,
+        "Total": 161
+      },
+      "Unsafe Speed": {
+        "Property": 774,
+        "Injury": 774,
+        "Fatal": 774,
+        "Total": 1149
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 156,
+        "Injury": 156,
+        "Fatal": 156,
+        "Total": 169
+      },
+      "Wrong Side of Road": {
+        "Property": 52,
+        "Injury": 52,
+        "Fatal": 52,
+        "Total": 81
+      }
+    }
+  },
+  {
+    "County": "San Mateo",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 243,
+        "Injury": 243,
+        "Fatal": 243,
+        "Total": 606
+      },
+      "Brakes": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 6
+      },
+      "DUI": {
+        "Property": 365,
+        "Injury": 365,
+        "Fatal": 365,
+        "Total": 597
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 90,
+        "Injury": 90,
+        "Fatal": 90,
+        "Total": 161
+      },
+      "Hazardous Parking": {
+        "Property": 14,
+        "Injury": 14,
+        "Fatal": 14,
+        "Total": 15
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Improper Passing": {
+        "Property": 42,
+        "Injury": 42,
+        "Fatal": 42,
+        "Total": 60
+      },
+      "Improper Turning": {
+        "Property": 1349,
+        "Injury": 1349,
+        "Fatal": 1349,
+        "Total": 1819
+      },
+      "Lights": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 181,
+        "Injury": 181,
+        "Fatal": 181,
+        "Total": 271
+      },
+      "Other Equipment": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 7
+      },
+      "Other Hazardous Violation": {
+        "Property": 49,
+        "Injury": 49,
+        "Fatal": 49,
+        "Total": 80
+      },
+      "Other Improper Driving": {
+        "Property": 52,
+        "Injury": 52,
+        "Fatal": 52,
+        "Total": 61
+      },
+      "Other than Driver or Ped": {
+        "Property": 106,
+        "Injury": 106,
+        "Fatal": 106,
+        "Total": 145
+      },
+      "Pedestrian Right of Way": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 144
+      },
+      "Pedestrian Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 61
+      },
+      "Traffic Signals and Signs": {
+        "Property": 90,
+        "Injury": 90,
+        "Fatal": 90,
+        "Total": 252
+      },
+      "Unsafe Lane Change": {
+        "Property": 425,
+        "Injury": 425,
+        "Fatal": 425,
+        "Total": 520
+      },
+      "Unsafe Speed": {
+        "Property": 1551,
+        "Injury": 1551,
+        "Fatal": 1551,
+        "Total": 2675
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 337,
+        "Injury": 337,
+        "Fatal": 337,
+        "Total": 412
+      },
+      "Wrong Side of Road": {
+        "Property": 50,
+        "Injury": 50,
+        "Fatal": 50,
+        "Total": 111
+      }
+    }
+  },
+  {
+    "County": "Santa Barbara",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 360,
+        "Injury": 360,
+        "Fatal": 360,
+        "Total": 680
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 371,
+        "Injury": 371,
+        "Fatal": 371,
+        "Total": 581
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 34,
+        "Injury": 34,
+        "Fatal": 34,
+        "Total": 48
+      },
+      "Hazardous Parking": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 6
+      },
+      "Impeding Traffic": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Improper Passing": {
+        "Property": 29,
+        "Injury": 29,
+        "Fatal": 29,
+        "Total": 43
+      },
+      "Improper Turning": {
+        "Property": 925,
+        "Injury": 925,
+        "Fatal": 925,
+        "Total": 1293
+      },
+      "Lights": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 231,
+        "Injury": 231,
+        "Fatal": 231,
+        "Total": 330
+      },
+      "Other Equipment": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 6
+      },
+      "Other Hazardous Violation": {
+        "Property": 41,
+        "Injury": 41,
+        "Fatal": 41,
+        "Total": 60
+      },
+      "Other Improper Driving": {
+        "Property": 27,
+        "Injury": 27,
+        "Fatal": 27,
+        "Total": 31
+      },
+      "Other than Driver or Ped": {
+        "Property": 124,
+        "Injury": 124,
+        "Fatal": 124,
+        "Total": 158
+      },
+      "Pedestrian Right of Way": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 58
+      },
+      "Pedestrian Violation": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 63
+      },
+      "Traffic Signals and Signs": {
+        "Property": 116,
+        "Injury": 116,
+        "Fatal": 116,
+        "Total": 241
+      },
+      "Unsafe Lane Change": {
+        "Property": 168,
+        "Injury": 168,
+        "Fatal": 168,
+        "Total": 209
+      },
+      "Unsafe Speed": {
+        "Property": 1060,
+        "Injury": 1060,
+        "Fatal": 1060,
+        "Total": 1614
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 241,
+        "Injury": 241,
+        "Fatal": 241,
+        "Total": 298
+      },
+      "Wrong Side of Road": {
+        "Property": 59,
+        "Injury": 59,
+        "Fatal": 59,
+        "Total": 100
+      }
+    }
+  },
+  {
+    "County": "Santa Clara",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 409,
+        "Injury": 409,
+        "Fatal": 409,
+        "Total": 1242
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "DUI": {
+        "Property": 605,
+        "Injury": 605,
+        "Fatal": 605,
+        "Total": 1029
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 65,
+        "Injury": 65,
+        "Fatal": 65,
+        "Total": 177
+      },
+      "Hazardous Parking": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 9
+      },
+      "Impeding Traffic": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 9
+      },
+      "Improper Passing": {
+        "Property": 76,
+        "Injury": 76,
+        "Fatal": 76,
+        "Total": 118
+      },
+      "Improper Turning": {
+        "Property": 1862,
+        "Injury": 1862,
+        "Fatal": 1862,
+        "Total": 2955
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 3
+      },
+      "Not Stated": {
+        "Property": 374,
+        "Injury": 374,
+        "Fatal": 374,
+        "Total": 839
+      },
+      "Other Equipment": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 20
+      },
+      "Other Hazardous Violation": {
+        "Property": 150,
+        "Injury": 150,
+        "Fatal": 150,
+        "Total": 248
+      },
+      "Other Improper Driving": {
+        "Property": 53,
+        "Injury": 53,
+        "Fatal": 53,
+        "Total": 113
+      },
+      "Other than Driver or Ped": {
+        "Property": 207,
+        "Injury": 207,
+        "Fatal": 207,
+        "Total": 294
+      },
+      "Pedestrian Right of Way": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 203
+      },
+      "Pedestrian Violation": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 157
+      },
+      "Traffic Signals and Signs": {
+        "Property": 193,
+        "Injury": 193,
+        "Fatal": 193,
+        "Total": 741
+      },
+      "Unsafe Lane Change": {
+        "Property": 1126,
+        "Injury": 1126,
+        "Fatal": 1126,
+        "Total": 1473
+      },
+      "Unsafe Speed": {
+        "Property": 4402,
+        "Injury": 4402,
+        "Fatal": 4402,
+        "Total": 7360
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 282,
+        "Injury": 282,
+        "Fatal": 282,
+        "Total": 372
+      },
+      "Wrong Side of Road": {
+        "Property": 123,
+        "Injury": 123,
+        "Fatal": 123,
+        "Total": 300
+      }
+    }
+  },
+  {
+    "County": "Santa Cruz",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 205,
+        "Injury": 205,
+        "Fatal": 205,
+        "Total": 375
+      },
+      "Brakes": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 226,
+        "Injury": 226,
+        "Fatal": 226,
+        "Total": 373
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 26,
+        "Injury": 26,
+        "Fatal": 26,
+        "Total": 46
+      },
+      "Hazardous Parking": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 7
+      },
+      "Impeding Traffic": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Improper Passing": {
+        "Property": 37,
+        "Injury": 37,
+        "Fatal": 37,
+        "Total": 50
+      },
+      "Improper Turning": {
+        "Property": 691,
+        "Injury": 691,
+        "Fatal": 691,
+        "Total": 920
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Not Stated": {
+        "Property": 52,
+        "Injury": 52,
+        "Fatal": 52,
+        "Total": 90
+      },
+      "Other Equipment": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 5
+      },
+      "Other Hazardous Violation": {
+        "Property": 26,
+        "Injury": 26,
+        "Fatal": 26,
+        "Total": 42
+      },
+      "Other Improper Driving": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 16
+      },
+      "Other than Driver or Ped": {
+        "Property": 107,
+        "Injury": 107,
+        "Fatal": 107,
+        "Total": 149
+      },
+      "Pedestrian Right of Way": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 44
+      },
+      "Pedestrian Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 25
+      },
+      "Traffic Signals and Signs": {
+        "Property": 46,
+        "Injury": 46,
+        "Fatal": 46,
+        "Total": 92
+      },
+      "Unsafe Lane Change": {
+        "Property": 113,
+        "Injury": 113,
+        "Fatal": 113,
+        "Total": 137
+      },
+      "Unsafe Speed": {
+        "Property": 748,
+        "Injury": 748,
+        "Fatal": 748,
+        "Total": 1160
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 150,
+        "Injury": 150,
+        "Fatal": 150,
+        "Total": 165
+      },
+      "Wrong Side of Road": {
+        "Property": 54,
+        "Injury": 54,
+        "Fatal": 54,
+        "Total": 104
+      }
+    }
+  },
+  {
+    "County": "Shasta",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 41,
+        "Injury": 41,
+        "Fatal": 41,
+        "Total": 140
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 114,
+        "Injury": 114,
+        "Fatal": 114,
+        "Total": 208
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 11
+      },
+      "Hazardous Parking": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 8
+      },
+      "Improper Turning": {
+        "Property": 246,
+        "Injury": 246,
+        "Fatal": 246,
+        "Total": 436
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 37
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other Hazardous Violation": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 15
+      },
+      "Other Improper Driving": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 12
+      },
+      "Other than Driver or Ped": {
+        "Property": 47,
+        "Injury": 47,
+        "Fatal": 47,
+        "Total": 75
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 12
+      },
+      "Pedestrian Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 20
+      },
+      "Traffic Signals and Signs": {
+        "Property": 19,
+        "Injury": 19,
+        "Fatal": 19,
+        "Total": 66
+      },
+      "Unsafe Lane Change": {
+        "Property": 45,
+        "Injury": 45,
+        "Fatal": 45,
+        "Total": 62
+      },
+      "Unsafe Speed": {
+        "Property": 225,
+        "Injury": 225,
+        "Fatal": 225,
+        "Total": 446
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 17,
+        "Injury": 17,
+        "Fatal": 17,
+        "Total": 24
+      },
+      "Wrong Side of Road": {
+        "Property": 38,
+        "Injury": 38,
+        "Fatal": 38,
+        "Total": 73
+      }
+    }
+  },
+  {
+    "County": "Sierra",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 5
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Turning": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 12
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other Improper Driving": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other than Driver or Ped": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 9
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Traffic Signals and Signs": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Unsafe Lane Change": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 3
+      },
+      "Unsafe Speed": {
+        "Property": 16,
+        "Injury": 16,
+        "Fatal": 16,
+        "Total": 36
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Wrong Side of Road": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 4
+      }
+    }
+  },
+  {
+    "County": "Siskiyou",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 17,
+        "Injury": 17,
+        "Fatal": 17,
+        "Total": 28
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 33,
+        "Injury": 33,
+        "Fatal": 33,
+        "Total": 70
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 7
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 5
+      },
+      "Improper Turning": {
+        "Property": 96,
+        "Injury": 96,
+        "Fatal": 96,
+        "Total": 180
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 15
+      },
+      "Other Equipment": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other Hazardous Violation": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 6
+      },
+      "Other Improper Driving": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 5
+      },
+      "Other than Driver or Ped": {
+        "Property": 68,
+        "Injury": 68,
+        "Fatal": 68,
+        "Total": 83
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 4
+      },
+      "Traffic Signals and Signs": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 3
+      },
+      "Unsafe Lane Change": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 12
+      },
+      "Unsafe Speed": {
+        "Property": 76,
+        "Injury": 76,
+        "Fatal": 76,
+        "Total": 135
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 15
+      },
+      "Wrong Side of Road": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 15
+      }
+    }
+  },
+  {
+    "County": "Solano",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 120,
+        "Injury": 120,
+        "Fatal": 120,
+        "Total": 360
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 271,
+        "Injury": 271,
+        "Fatal": 271,
+        "Total": 456
+      },
+      "Fell Asleep": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Following Too Closely": {
+        "Property": 64,
+        "Injury": 64,
+        "Fatal": 64,
+        "Total": 99
+      },
+      "Hazardous Parking": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 8
+      },
+      "Impeding Traffic": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 3
+      },
+      "Improper Passing": {
+        "Property": 37,
+        "Injury": 37,
+        "Fatal": 37,
+        "Total": 46
+      },
+      "Improper Turning": {
+        "Property": 736,
+        "Injury": 736,
+        "Fatal": 736,
+        "Total": 1097
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Not Stated": {
+        "Property": 86,
+        "Injury": 86,
+        "Fatal": 86,
+        "Total": 129
+      },
+      "Other Equipment": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 10
+      },
+      "Other Hazardous Violation": {
+        "Property": 46,
+        "Injury": 46,
+        "Fatal": 46,
+        "Total": 65
+      },
+      "Other Improper Driving": {
+        "Property": 50,
+        "Injury": 50,
+        "Fatal": 50,
+        "Total": 60
+      },
+      "Other than Driver or Ped": {
+        "Property": 74,
+        "Injury": 74,
+        "Fatal": 74,
+        "Total": 115
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 36
+      },
+      "Pedestrian Violation": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 60
+      },
+      "Traffic Signals and Signs": {
+        "Property": 89,
+        "Injury": 89,
+        "Fatal": 89,
+        "Total": 226
+      },
+      "Unsafe Lane Change": {
+        "Property": 348,
+        "Injury": 348,
+        "Fatal": 348,
+        "Total": 433
+      },
+      "Unsafe Speed": {
+        "Property": 1050,
+        "Injury": 1050,
+        "Fatal": 1050,
+        "Total": 1802
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 108,
+        "Injury": 108,
+        "Fatal": 108,
+        "Total": 136
+      },
+      "Wrong Side of Road": {
+        "Property": 28,
+        "Injury": 28,
+        "Fatal": 28,
+        "Total": 64
+      }
+    }
+  },
+  {
+    "County": "Sonoma",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 279,
+        "Injury": 279,
+        "Fatal": 279,
+        "Total": 643
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "DUI": {
+        "Property": 422,
+        "Injury": 422,
+        "Fatal": 422,
+        "Total": 672
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 116,
+        "Injury": 116,
+        "Fatal": 116,
+        "Total": 191
+      },
+      "Hazardous Parking": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Impeding Traffic": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 5
+      },
+      "Improper Passing": {
+        "Property": 52,
+        "Injury": 52,
+        "Fatal": 52,
+        "Total": 65
+      },
+      "Improper Turning": {
+        "Property": 878,
+        "Injury": 878,
+        "Fatal": 878,
+        "Total": 1296
+      },
+      "Lights": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 91,
+        "Injury": 91,
+        "Fatal": 91,
+        "Total": 130
+      },
+      "Other Equipment": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 10
+      },
+      "Other Hazardous Violation": {
+        "Property": 35,
+        "Injury": 35,
+        "Fatal": 35,
+        "Total": 63
+      },
+      "Other Improper Driving": {
+        "Property": 25,
+        "Injury": 25,
+        "Fatal": 25,
+        "Total": 41
+      },
+      "Other than Driver or Ped": {
+        "Property": 76,
+        "Injury": 76,
+        "Fatal": 76,
+        "Total": 117
+      },
+      "Pedestrian Right of Way": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 71
+      },
+      "Pedestrian Violation": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 51
+      },
+      "Traffic Signals and Signs": {
+        "Property": 99,
+        "Injury": 99,
+        "Fatal": 99,
+        "Total": 214
+      },
+      "Unsafe Lane Change": {
+        "Property": 180,
+        "Injury": 180,
+        "Fatal": 180,
+        "Total": 235
+      },
+      "Unsafe Speed": {
+        "Property": 1108,
+        "Injury": 1108,
+        "Fatal": 1108,
+        "Total": 1938
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 140,
+        "Injury": 140,
+        "Fatal": 140,
+        "Total": 175
+      },
+      "Wrong Side of Road": {
+        "Property": 79,
+        "Injury": 79,
+        "Fatal": 79,
+        "Total": 156
+      }
+    }
+  },
+  {
+    "County": "Stanislaus",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 297,
+        "Injury": 297,
+        "Fatal": 297,
+        "Total": 943
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 311,
+        "Injury": 311,
+        "Fatal": 311,
+        "Total": 615
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 3
+      },
+      "Following Too Closely": {
+        "Property": 78,
+        "Injury": 78,
+        "Fatal": 78,
+        "Total": 158
+      },
+      "Hazardous Parking": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 8
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 4
+      },
+      "Improper Passing": {
+        "Property": 54,
+        "Injury": 54,
+        "Fatal": 54,
+        "Total": 78
+      },
+      "Improper Turning": {
+        "Property": 1153,
+        "Injury": 1153,
+        "Fatal": 1153,
+        "Total": 1678
+      },
+      "Lights": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 101,
+        "Injury": 101,
+        "Fatal": 101,
+        "Total": 178
+      },
+      "Other Equipment": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 15
+      },
+      "Other Hazardous Violation": {
+        "Property": 29,
+        "Injury": 29,
+        "Fatal": 29,
+        "Total": 73
+      },
+      "Other Improper Driving": {
+        "Property": 27,
+        "Injury": 27,
+        "Fatal": 27,
+        "Total": 39
+      },
+      "Other than Driver or Ped": {
+        "Property": 84,
+        "Injury": 84,
+        "Fatal": 84,
+        "Total": 142
+      },
+      "Pedestrian Right of Way": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 83
+      },
+      "Pedestrian Violation": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 77
+      },
+      "Traffic Signals and Signs": {
+        "Property": 140,
+        "Injury": 140,
+        "Fatal": 140,
+        "Total": 514
+      },
+      "Unsafe Lane Change": {
+        "Property": 204,
+        "Injury": 204,
+        "Fatal": 204,
+        "Total": 267
+      },
+      "Unsafe Speed": {
+        "Property": 993,
+        "Injury": 993,
+        "Fatal": 993,
+        "Total": 1797
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 140,
+        "Injury": 140,
+        "Fatal": 140,
+        "Total": 192
+      },
+      "Wrong Side of Road": {
+        "Property": 63,
+        "Injury": 63,
+        "Fatal": 63,
+        "Total": 158
+      }
+    }
+  },
+  {
+    "County": "Sutter",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 54,
+        "Injury": 54,
+        "Fatal": 54,
+        "Total": 134
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 55,
+        "Injury": 55,
+        "Fatal": 55,
+        "Total": 116
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 13
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 14
+      },
+      "Improper Turning": {
+        "Property": 133,
+        "Injury": 133,
+        "Fatal": 133,
+        "Total": 244
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 40,
+        "Injury": 40,
+        "Fatal": 40,
+        "Total": 63
+      },
+      "Other Equipment": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 4
+      },
+      "Other Hazardous Violation": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 13
+      },
+      "Other Improper Driving": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 5
+      },
+      "Other than Driver or Ped": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 34
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 6
+      },
+      "Pedestrian Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 7
+      },
+      "Traffic Signals and Signs": {
+        "Property": 13,
+        "Injury": 13,
+        "Fatal": 13,
+        "Total": 70
+      },
+      "Unsafe Lane Change": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 14
+      },
+      "Unsafe Speed": {
+        "Property": 170,
+        "Injury": 170,
+        "Fatal": 170,
+        "Total": 333
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 29,
+        "Injury": 29,
+        "Fatal": 29,
+        "Total": 38
+      },
+      "Wrong Side of Road": {
+        "Property": 26,
+        "Injury": 26,
+        "Fatal": 26,
+        "Total": 41
+      }
+    }
+  },
+  {
+    "County": "Tehama",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 32,
+        "Injury": 32,
+        "Fatal": 32,
+        "Total": 64
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 41,
+        "Injury": 41,
+        "Fatal": 41,
+        "Total": 86
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 3
+      },
+      "Hazardous Parking": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 6
+      },
+      "Improper Turning": {
+        "Property": 141,
+        "Injury": 141,
+        "Fatal": 141,
+        "Total": 222
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 91,
+        "Injury": 91,
+        "Fatal": 91,
+        "Total": 95
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 5
+      },
+      "Other Improper Driving": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 3
+      },
+      "Other than Driver or Ped": {
+        "Property": 23,
+        "Injury": 23,
+        "Fatal": 23,
+        "Total": 30
+      },
+      "Pedestrian Right of Way": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 4
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 6
+      },
+      "Traffic Signals and Signs": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 8
+      },
+      "Unsafe Lane Change": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 17
+      },
+      "Unsafe Speed": {
+        "Property": 74,
+        "Injury": 74,
+        "Fatal": 74,
+        "Total": 146
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 10
+      },
+      "Wrong Side of Road": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 20
+      }
+    }
+  },
+  {
+    "County": "Trinity",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 7
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 14,
+        "Injury": 14,
+        "Fatal": 14,
+        "Total": 32
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Hazardous Parking": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Improper Passing": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Improper Turning": {
+        "Property": 51,
+        "Injury": 51,
+        "Fatal": 51,
+        "Total": 109
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other Improper Driving": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Other than Driver or Ped": {
+        "Property": 20,
+        "Injury": 20,
+        "Fatal": 20,
+        "Total": 26
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Traffic Signals and Signs": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Unsafe Lane Change": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Unsafe Speed": {
+        "Property": 40,
+        "Injury": 40,
+        "Fatal": 40,
+        "Total": 66
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 6
+      },
+      "Wrong Side of Road": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 6
+      }
+    }
+  },
+  {
+    "County": "Tulare",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 434,
+        "Injury": 434,
+        "Fatal": 434,
+        "Total": 779
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 275,
+        "Injury": 275,
+        "Fatal": 275,
+        "Total": 460
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 44,
+        "Injury": 44,
+        "Fatal": 44,
+        "Total": 66
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Improper Passing": {
+        "Property": 38,
+        "Injury": 38,
+        "Fatal": 38,
+        "Total": 50
+      },
+      "Improper Turning": {
+        "Property": 944,
+        "Injury": 944,
+        "Fatal": 944,
+        "Total": 1292
+      },
+      "Lights": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Not Stated": {
+        "Property": 80,
+        "Injury": 80,
+        "Fatal": 80,
+        "Total": 108
+      },
+      "Other Equipment": {
+        "Property": 14,
+        "Injury": 14,
+        "Fatal": 14,
+        "Total": 16
+      },
+      "Other Hazardous Violation": {
+        "Property": 42,
+        "Injury": 42,
+        "Fatal": 42,
+        "Total": 60
+      },
+      "Other Improper Driving": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 5
+      },
+      "Other than Driver or Ped": {
+        "Property": 110,
+        "Injury": 110,
+        "Fatal": 110,
+        "Total": 136
+      },
+      "Pedestrian Right of Way": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 34
+      },
+      "Pedestrian Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 45
+      },
+      "Traffic Signals and Signs": {
+        "Property": 162,
+        "Injury": 162,
+        "Fatal": 162,
+        "Total": 400
+      },
+      "Unsafe Lane Change": {
+        "Property": 140,
+        "Injury": 140,
+        "Fatal": 140,
+        "Total": 171
+      },
+      "Unsafe Speed": {
+        "Property": 761,
+        "Injury": 761,
+        "Fatal": 761,
+        "Total": 1202
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 158,
+        "Injury": 158,
+        "Fatal": 158,
+        "Total": 175
+      },
+      "Wrong Side of Road": {
+        "Property": 142,
+        "Injury": 142,
+        "Fatal": 142,
+        "Total": 228
+      }
+    }
+  },
+  {
+    "County": "Tuolumne",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 57,
+        "Injury": 57,
+        "Fatal": 57,
+        "Total": 103
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 40,
+        "Injury": 40,
+        "Fatal": 40,
+        "Total": 91
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 12,
+        "Injury": 12,
+        "Fatal": 12,
+        "Total": 22
+      },
+      "Hazardous Parking": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 1
+      },
+      "Impeding Traffic": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Improper Passing": {
+        "Property": 6,
+        "Injury": 6,
+        "Fatal": 6,
+        "Total": 10
+      },
+      "Improper Turning": {
+        "Property": 131,
+        "Injury": 131,
+        "Fatal": 131,
+        "Total": 248
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 11,
+        "Injury": 11,
+        "Fatal": 11,
+        "Total": 11
+      },
+      "Other Equipment": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Other Hazardous Violation": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 5
+      },
+      "Other Improper Driving": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 10
+      },
+      "Other than Driver or Ped": {
+        "Property": 33,
+        "Injury": 33,
+        "Fatal": 33,
+        "Total": 47
+      },
+      "Pedestrian Right of Way": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 4
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 6
+      },
+      "Traffic Signals and Signs": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 15
+      },
+      "Unsafe Lane Change": {
+        "Property": 8,
+        "Injury": 8,
+        "Fatal": 8,
+        "Total": 9
+      },
+      "Unsafe Speed": {
+        "Property": 164,
+        "Injury": 164,
+        "Fatal": 164,
+        "Total": 248
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 26,
+        "Injury": 26,
+        "Fatal": 26,
+        "Total": 30
+      },
+      "Wrong Side of Road": {
+        "Property": 29,
+        "Injury": 29,
+        "Fatal": 29,
+        "Total": 47
+      }
+    }
+  },
+  {
+    "County": "Ventura",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 415,
+        "Injury": 415,
+        "Fatal": 415,
+        "Total": 1129
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 521,
+        "Injury": 521,
+        "Fatal": 521,
+        "Total": 847
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 99,
+        "Injury": 99,
+        "Fatal": 99,
+        "Total": 197
+      },
+      "Hazardous Parking": {
+        "Property": 9,
+        "Injury": 9,
+        "Fatal": 9,
+        "Total": 16
+      },
+      "Impeding Traffic": {
+        "Property": 4,
+        "Injury": 4,
+        "Fatal": 4,
+        "Total": 6
+      },
+      "Improper Passing": {
+        "Property": 57,
+        "Injury": 57,
+        "Fatal": 57,
+        "Total": 77
+      },
+      "Improper Turning": {
+        "Property": 1251,
+        "Injury": 1251,
+        "Fatal": 1251,
+        "Total": 1828
+      },
+      "Lights": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 155,
+        "Injury": 155,
+        "Fatal": 155,
+        "Total": 241
+      },
+      "Other Equipment": {
+        "Property": 5,
+        "Injury": 5,
+        "Fatal": 5,
+        "Total": 8
+      },
+      "Other Hazardous Violation": {
+        "Property": 47,
+        "Injury": 47,
+        "Fatal": 47,
+        "Total": 72
+      },
+      "Other Improper Driving": {
+        "Property": 52,
+        "Injury": 52,
+        "Fatal": 52,
+        "Total": 89
+      },
+      "Other than Driver or Ped": {
+        "Property": 172,
+        "Injury": 172,
+        "Fatal": 172,
+        "Total": 229
+      },
+      "Pedestrian Right of Way": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 101
+      },
+      "Pedestrian Violation": {
+        "Property": 3,
+        "Injury": 3,
+        "Fatal": 3,
+        "Total": 85
+      },
+      "Traffic Signals and Signs": {
+        "Property": 140,
+        "Injury": 140,
+        "Fatal": 140,
+        "Total": 468
+      },
+      "Unsafe Lane Change": {
+        "Property": 307,
+        "Injury": 307,
+        "Fatal": 307,
+        "Total": 412
+      },
+      "Unsafe Speed": {
+        "Property": 1664,
+        "Injury": 1664,
+        "Fatal": 1664,
+        "Total": 2901
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 301,
+        "Injury": 301,
+        "Fatal": 301,
+        "Total": 374
+      },
+      "Wrong Side of Road": {
+        "Property": 102,
+        "Injury": 102,
+        "Fatal": 102,
+        "Total": 247
+      }
+    }
+  },
+  {
+    "County": "Yolo",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 122,
+        "Injury": 122,
+        "Fatal": 122,
+        "Total": 226
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 110,
+        "Injury": 110,
+        "Fatal": 110,
+        "Total": 189
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 30,
+        "Injury": 30,
+        "Fatal": 30,
+        "Total": 42
+      },
+      "Hazardous Parking": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 1
+      },
+      "Impeding Traffic": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Improper Passing": {
+        "Property": 25,
+        "Injury": 25,
+        "Fatal": 25,
+        "Total": 31
+      },
+      "Improper Turning": {
+        "Property": 394,
+        "Injury": 394,
+        "Fatal": 394,
+        "Total": 579
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 2
+      },
+      "Not Stated": {
+        "Property": 27,
+        "Injury": 27,
+        "Fatal": 27,
+        "Total": 46
+      },
+      "Other Equipment": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 3
+      },
+      "Other Hazardous Violation": {
+        "Property": 21,
+        "Injury": 21,
+        "Fatal": 21,
+        "Total": 34
+      },
+      "Other Improper Driving": {
+        "Property": 15,
+        "Injury": 15,
+        "Fatal": 15,
+        "Total": 16
+      },
+      "Other than Driver or Ped": {
+        "Property": 48,
+        "Injury": 48,
+        "Fatal": 48,
+        "Total": 57
+      },
+      "Pedestrian Right of Way": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 18
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 22
+      },
+      "Traffic Signals and Signs": {
+        "Property": 76,
+        "Injury": 76,
+        "Fatal": 76,
+        "Total": 132
+      },
+      "Unsafe Lane Change": {
+        "Property": 112,
+        "Injury": 112,
+        "Fatal": 112,
+        "Total": 142
+      },
+      "Unsafe Speed": {
+        "Property": 541,
+        "Injury": 541,
+        "Fatal": 541,
+        "Total": 916
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 55,
+        "Injury": 55,
+        "Fatal": 55,
+        "Total": 67
+      },
+      "Wrong Side of Road": {
+        "Property": 61,
+        "Injury": 61,
+        "Fatal": 61,
+        "Total": 92
+      }
+    }
+  },
+  {
+    "County": "Yuba",
+    "CollisionFactor": {
+      "Automobile Right of Way": {
+        "Property": 42,
+        "Injury": 42,
+        "Fatal": 42,
+        "Total": 92
+      },
+      "Brakes": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "DUI": {
+        "Property": 36,
+        "Injury": 36,
+        "Fatal": 36,
+        "Total": 71
+      },
+      "Fell Asleep": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Following Too Closely": {
+        "Property": 22,
+        "Injury": 22,
+        "Fatal": 22,
+        "Total": 28
+      },
+      "Hazardous Parking": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 3
+      },
+      "Impeding Traffic": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Improper Passing": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 8
+      },
+      "Improper Turning": {
+        "Property": 211,
+        "Injury": 211,
+        "Fatal": 211,
+        "Total": 297
+      },
+      "Lights": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 0
+      },
+      "Not Stated": {
+        "Property": 32,
+        "Injury": 32,
+        "Fatal": 32,
+        "Total": 39
+      },
+      "Other Equipment": {
+        "Property": 2,
+        "Injury": 2,
+        "Fatal": 2,
+        "Total": 2
+      },
+      "Other Hazardous Violation": {
+        "Property": 10,
+        "Injury": 10,
+        "Fatal": 10,
+        "Total": 15
+      },
+      "Other Improper Driving": {
+        "Property": 1,
+        "Injury": 1,
+        "Fatal": 1,
+        "Total": 2
+      },
+      "Other than Driver or Ped": {
+        "Property": 28,
+        "Injury": 28,
+        "Fatal": 28,
+        "Total": 32
+      },
+      "Pedestrian Right of Way": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 4
+      },
+      "Pedestrian Violation": {
+        "Property": 0,
+        "Injury": 0,
+        "Fatal": 0,
+        "Total": 11
+      },
+      "Traffic Signals and Signs": {
+        "Property": 7,
+        "Injury": 7,
+        "Fatal": 7,
+        "Total": 21
+      },
+      "Unsafe Lane Change": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 29
+      },
+      "Unsafe Speed": {
+        "Property": 144,
+        "Injury": 144,
+        "Fatal": 144,
+        "Total": 244
+      },
+      "Unsafe Starting or Backing": {
+        "Property": 34,
+        "Injury": 34,
+        "Fatal": 34,
+        "Total": 44
+      },
+      "Wrong Side of Road": {
+        "Property": 18,
+        "Injury": 18,
+        "Fatal": 18,
+        "Total": 39
+      }
+    }
+  }
+]
