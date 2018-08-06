@@ -43,12 +43,15 @@
 			<p>Please note the changing scale based on the county selection.  Naturally, smaller populous regions have few collisions on records. Take a moment to explore your region and others!  See what violaions are most prevalent in your area and discover things you should be wary of to help become a safer driver.</p>
 		</div>
 		<div style="float: left;" id="pcf_graph"></div>
-		<div style="float: left;" id="injury_pie"></div>
+		<div style="float: left;" id="risk_chart"></div>
 	</div>
 
 <script src="js/d3.v4.js"></script>
 <script src="js/d3-legend.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js"></script>
+
+<!-- PCF bar graph, declare first since triggered by county map actions -->
+<script src="js/pcf_graph.js"></script>
 
 <!-- scripts to support counties map -->
 <script src="js/california-counties.js"></script>
@@ -57,10 +60,8 @@
 <!-- scripts for heatmapChart -->
 <script src="js/day_time_map.js"></script>
 
-<!-- PCF bar graph, declare first since triggered by county map actions -->
-<!-- <script src="js/pcf_graph.js"></script>
-<script src="js/injury_fatal_pie.js"></script> -->]
-
+<!-- script for risk chart -->
+<script src="js/risk_bar_chart.js"></script>
 
 </body>
 </html>
