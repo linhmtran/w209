@@ -9,13 +9,14 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
     times = ["12a","1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12a", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p"];
     datasets = ["data/dayTimeAll.tsv"];
 
-var svg = d3.select("div#heatmap").append("svg")
+var svg_heat = d3.select("div#heatmap").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
+    .attr("id","svgheat")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var dayLabels = svg.selectAll(".dayLabel")
+var dayLabels = svg_heat.selectAll(".dayLabel")
     .data(days)
     .enter().append("text")
       .text(function (d) { return d; })
@@ -25,7 +26,7 @@ var dayLabels = svg.selectAll(".dayLabel")
       .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
       .attr("class", function (d, i) {((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis")} );
 
-var timeLabels = svg.selectAll(".timeLabel")
+var timeLabels = svg_heat.selectAll(".timeLabel")
     .data(times)
     .enter().append("text")
       .text(function (d) { return d; })
@@ -50,7 +51,7 @@ var heatmapChart = function(tsvFile) {
       .domain([0, buckets - 1, d3.max(data, function (d) {return d.value} )])
       .range(colors);
 
-    var cards = svg.selectAll(".hour")
+    var cards = svg_heat.selectAll(".hour")
         .data(data, function (d) {return d.day+':'+d.hour} );
 
     cards.append("title");
@@ -73,7 +74,7 @@ var heatmapChart = function(tsvFile) {
 
     cards.exit().remove();
 
-    var legend = svg.selectAll(".legend")
+    var legend = svg_heat.selectAll(".legend")
         .data([0].concat(colorScale.quantiles()), function (d) {return d} );
 
     var legend_g = legend.enter().append("g")
