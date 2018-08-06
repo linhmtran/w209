@@ -5,9 +5,9 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
     legendElementWidth = gridSize*2,
     buckets = 9,
     colors = ['#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'],
-    days = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
-    times = ["1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12a", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p", "12p"];
-    datasets = ["data/dateTimeAll.tsv"];
+    days = ["Su","Mo", "Tu", "We", "Th", "Fr", "Sa"],
+    times = ["12a","1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12a", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p"];
+    datasets = ["data/dayTimeAll.tsv"];
 
 var svg = d3.select("div#heatmap").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -56,17 +56,17 @@ var heatmapChart = function(tsvFile) {
     cards.append("title");
 
     cards.enter().append("rect")
-        .attr("x", function (d) {return (d.hour - 1) * gridSize})
-        .attr("y", function (d) {return (d.day - 1) * gridSize})
+        .attr("x", function (d) {return ((d.hour) * gridSize)})
+        .attr("y", function (d) {return ((d.day) * gridSize)})
         .attr("rx", 4)
         .attr("ry", 4)
         .attr("class", "hour bordered")
-        .attr("width", gridSize)
-        .attr("height", gridSize)
+        .attr("width", gridSize-1)
+        .attr("height", gridSize-1)
         .style("fill", colors[0])
       .merge(cards)
-        .transition()
-        .duration(1000)
+        // .transition()
+        // .duration(1000)
         .style("fill", (d) => colorScale(d.value));
 
     cards.select("title").text(function (d) {return d.value} );
@@ -98,11 +98,11 @@ var heatmapChart = function(tsvFile) {
 
 heatmapChart(datasets[0]);
 
-var datasetpicker = d3.select("#dataset-picker")
+var datasetfilter = d3.select("div#dataset-filter")
   .selectAll(".dataset-button")
   .data(datasets);
 
-datasetpicker.enter()
+datasetfilter.enter()
   .append("input")
   .attr("value", function (d) {return "filter: " + d} )
   .attr("type", "button")
