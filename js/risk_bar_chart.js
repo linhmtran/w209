@@ -1,3 +1,6 @@
+// global, selected pcf
+var selectedPCF;
+var injuryData;
 
 // risk bar chart w/ref lines svg
 //Set dimensions
@@ -112,7 +115,9 @@ var updateRiskBarGraph = function (data) {
   console.log(getCountyPCFRiskRate("Alpine", "DUI", data));
 
   var totalRiskRates = getCountyTotalRiskRate(selectedCounty, data);
+  console.log(selectedCounty);
   console.log(Object.keys(totalRiskRates));
+  console.log(totalRiskRates);
 
   // update bar width for number of collision types
   r_barWidth = r_w / (Object.keys(totalRiskRates).length);
@@ -145,6 +150,8 @@ var updateRiskBarGraph = function (data) {
     return r_xScale(d) + 2;
   })
   .attr('y', function (d, i) {
+    console.log(d);
+    console.log(totalRiskRates[d]);
     return r_yScale(totalRiskRates[d]);
   })
   .attr('height', function (d, i) {
@@ -197,7 +204,7 @@ var updateRiskBarGraph = function (data) {
    .style('text-anchor', 'middle')
    .style('font-size', '14px')
    .style('text-decoration', 'bold')
-   .text('Risk Rates for Selected County: ' + selectedCounty);
+   .text('Risk Rates for Collision Factor: ' + selectedPCF);
 
   // y axis label
   r_svg.append('text')
@@ -216,7 +223,7 @@ d3.queue()
 	.awaitAll(function (error, results) {
 		if (error) throw error;
 
-  var injuryStats = results[0];
-  console.log(injuryStats);
-  updateRiskBarGraph(injuryStats);
+  injuryData = results[0];
+  console.log(injuryData);
+  updateRiskBarGraph(injuryData);
 });

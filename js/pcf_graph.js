@@ -1,6 +1,6 @@
 // needs global selectedCounty
-var pcfStats;
 var selectedCounty = "CA_STATE";
+// var injuryData;
 
 // pareto chart svg
 //Set dimensions
@@ -135,6 +135,10 @@ var updatePCFGraph = function(data) {
 			div.transition()
 			.duration(500)
 			.style("opacity", 0);
+	})
+	.on("click", function(d) {
+		console.log("click = " + d);
+		updateRiskBarGraph(injuryData);
 	});
 
 	// update axes
