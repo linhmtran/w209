@@ -26,13 +26,14 @@
 
 	<div style="overflow: auto;" id="dash2_when">
 		<h2>When are you on the road?</h2>
-		<div style="width: 600px; float: left;" id="time_context">
+		<div id="time_context">
 			<p>When you are on the road also influence your propensity for being involved in a traffic collision.  During rush-hour times, more cars are on the road competeing for space and time in some instances which can lead to tumultous and unfortunate situations. Being aware of these conditions can help you as a driver!</p>
 			<p>Traffic and collisions patterns share common traits throughout the week, but its also interesting to see how different days of the week differ.  For instance, Friday evenings tend to have a greater number of collisions, so there's another incentive to beat rush hour!</p>
 		</div>
-		<div style="float: left;" id="heatmap">
-			<p>PLACE HOLDER</p>
+		<div id="heatmap">
 		</div>
+		<br>
+		<div id="dataset-picker">
 	</div>
 
 	<div style="overflow: auto;" id="dash3_what">
@@ -46,19 +47,25 @@
 		<div style="float: left;" id="pcf_graph"></div>
 		<div style="float: left;" id="injury_pie"></div>
 	</div>
-	
+
 <script src="js/d3.v4.js"></script>
 <script src="js/d3-legend.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js"></script>
 
 <!-- PCF bar graph, declare first since triggered by county map actions -->
-<script src="js/pcf_graph.js"></script>
-
-<script src="js/injury_fatal_pie.js"></script>
+<!-- <script src="js/pcf_graph.js"></script>
+<script src="js/injury_fatal_pie.js"></script> -->]
 
 <!-- scripts to support counties map -->
 <script src="js/california-counties.js"></script>
 <script src="js/counties_map.js"></script>
+
+<!-- scripts for heatmapChart -->
+<script src="js/day_time_map.js"></script>
+
+<!-- scripts for chart 3 -->
+<script src="js/pcf_graph.js"></script>
+
 
 </body>
 </html>
