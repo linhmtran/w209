@@ -45,8 +45,8 @@ var getCountyTotalRiskCounts = function (county, data) {
   var stats = { Injury: 0,
                 Fatal: 0,
                 Property: 0,
-                Total: 0
-  }
+                Total: 0,
+              };
   data.forEach(function (d) {
     if (d.County == county) {
       var cfData = d.CollisionFactor;
@@ -56,66 +56,74 @@ var getCountyTotalRiskCounts = function (county, data) {
         stats.Injury += cfData[pcf].Injury;
         stats.Fatal += cfData[pcf].Fatal;
         stats.Property += cfData[pcf].Property;
-        stats.Total += cfData[pcf].Total;
+        //stats.Total += cfData[pcf].Total;
+        stats.Total += cfData[pcf].Injury + cfData[pcf].Fatal + cfData[pcf].Property;
 
       });
     }
   });
+
   // console.log(stats);
   return stats;
-}
+};
 
 // get the injury/fatality stats for a particular county and pcf category
 var getCountyPCFRiskCounts = function (county, pcf, data) {
- var stats;
- data.forEach(function(d) {
-   if(d.County == county) {
-     // console.log("county = " + county);
-     // console.log("d = " + d.CollisionFactor[pcf]);
-     // console.log(d.CollisionFactor);
-     stats = d.CollisionFactor[pcf];
-   }
- });
- return stats;
-}
+  var stats;
+  data.forEach(function (d) {
+    if (d.County == county) {
+      // console.log("county = " + county);
+      // console.log("d = " + d.CollisionFactor[pcf]);
+      // console.log(d.CollisionFactor);
+      stats = d.CollisionFactor[pcf];
+    }
+  });
+
+  return stats;
+};
 
 // calculate and return an object which contains the "average" risk rates
 // for injuries, fatalities, and property across all pcf categories for a specific county
 var getCountyTotalRiskRate = function (county, data) {
   var totalStats = getCountyTotalRiskCounts(county, data);
-  var rates = {Injury: totalStats.Injury/totalStats.Total,
-               Fatal: totalStats.Fatal/totalStats.Total,
-               Property: totalStats.Property/totalStats.Total
-  };
+  var rates = { Injury: totalStats.Injury / totalStats.Total,
+              Fatal: totalStats.Fatal / totalStats.Total,
+              Property: totalStats.Property / totalStats.Total,
+            };
+  // console.log(totalStats.Injury);
+  // console.log(totalStats.Fatal);
+  // console.log(totalStats.Property);
+  // console.log(totalStats.Total);
+  // console.log(rates);
   return rates;
-}
+};
 
 // calculate and return an object which contains the risk rate
 // for injury, fatalities, and property only for a specific PCF category for a county
 var getCountyPCFRiskRate = function (county, pcf, data) {
   var stats = getCountyPCFRiskCounts(county, pcf, data);
-  var rates = { Injury: stats.Injury/stats.Total,
-                Fatal: stats.Fatal/stats.Total,
-                Property: stats.Property/stats.Total
-  };
+  var rates = { Injury: stats.Injury / stats.Total,
+                Fatal: stats.Fatal / stats.Total,
+                Property: stats.Property / stats.Total,
+              };
   return rates;
-}
+};
 
 var updateRiskBarGraph = function (data) {
   // clear title and labels
   r_svg.selectAll('text')
     .remove();
 
-  console.log(getCountyTotalRiskRate("Los Angeles", data));
+  // console.log(getCountyTotalRiskRate('Los Angeles', data));
 
-  console.log(getCountyPCFRiskRate("Los Angeles", "DUI", data));
-  console.log(getCountyPCFRiskRate("Los Angeles", "Unsafe Speed", data));
-
-  console.log(getCountyTotalRiskRate("Alpine", data));
-  console.log(getCountyPCFRiskRate("Alpine", "DUI", data));
+  // console.log(getCountyPCFRiskRate('Los Angeles', 'DUI', data));
+  // console.log(getCountyPCFRiskRate('Los Angeles', 'Unsafe Speed', data));
+  //
+  // console.log(getCountyTotalRiskRate('Alpine', data));
+  // console.log(getCountyPCFRiskRate('Alpine', 'DUI', data));
 
   var totalRiskRates = getCountyTotalRiskRate(selectedCounty, data);
-  console.log(selectedCounty);
+  // console.log(selectedCounty);
   console.log(Object.keys(totalRiskRates));
   console.log(totalRiskRates);
 
@@ -132,9 +140,9 @@ var updateRiskBarGraph = function (data) {
   }));
 
   // define the tooltip
-  // var div = d3.select('#bar_chart_ref').append('div')
-  // .attr('class', 'tooltip')
-  // .style('opacity', 0);
+  var div = d3.select('#risk_chart').append('div')
+  .attr('class', 'tooltip')
+  .style('opacity', 0);
 
   //select all bars on the graph, take them out, and exit the previous data set.
   //then you can add/enter the new data set
@@ -150,8 +158,8 @@ var updateRiskBarGraph = function (data) {
     return r_xScale(d) + 2;
   })
   .attr('y', function (d, i) {
-    console.log(d);
-    console.log(totalRiskRates[d]);
+    // console.log(d);
+    // console.log(totalRiskRates[d]);
     return r_yScale(totalRiskRates[d]);
   })
   .attr('height', function (d, i) {
@@ -204,7 +212,7 @@ var updateRiskBarGraph = function (data) {
    .style('text-anchor', 'middle')
    .style('font-size', '14px')
    .style('text-decoration', 'bold')
-   .text('Risk Rates for Collision Factor: ' + selectedPCF);
+   .text('Risk Rates for Collision Factor: ' + selectedCounty);
 
   // y axis label
   r_svg.append('text')
@@ -224,6 +232,6 @@ d3.queue()
 		if (error) throw error;
 
   injuryData = results[0];
-  console.log(injuryData);
+  // console.log(injuryData);
   updateRiskBarGraph(injuryData);
 });
