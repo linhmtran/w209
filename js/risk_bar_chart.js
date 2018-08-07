@@ -4,7 +4,7 @@ var injuryData;
 
 // risk bar chart w/ref lines svg
 //Set dimensions
-var r_m = { top: 50, right: 50, bottom: 70, left: 70 }, r_h = 400 - r_m.top - r_m.bottom, r_w = 200 - r_m.left - r_m.right, r_barWidth = 10;
+var r_m = { top: 50, right: 50, bottom: 70, left: 70 }, r_h = 500 - r_m.top - r_m.bottom, r_w = 500 - r_m.left - r_m.right, r_barWidth = 10;
 
 //Draw svg
 var r_svg = d3.select('#risk_chart').append('svg')
@@ -207,7 +207,7 @@ var updateRiskBarGraph = function (data) {
         .duration(200)
         .style('opacity', 0.9);
         div.html('Risk: ' + d + '<br/>' +
-                'Rate: ' + totalRiskRates[d])
+                'Rate: ' + formatPercent(totalRiskRates[d]))
         .style('left', (d3.event.pageX) + 'px')
         .style('top', (d3.event.pageY) + 'px');
       })
@@ -258,7 +258,7 @@ var updateRiskBarGraph = function (data) {
    .attr('transform', 'translate(' + (r_w / 2 - r_m.left) + ',' + (r_h + r_m.bottom - 5) + ')')
    .text('Risk Category');
 
-}; // end updateRiskBarGraphGraph
+}; // end updateRiskBarGraph
 
 // load the dataset
 d3.queue()
