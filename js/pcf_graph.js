@@ -136,8 +136,17 @@ var updatePCFGraph = function(data) {
 	})
 	.on("click", function(d) {
 		console.log("click = " + d);
-    selectedPCF = d;
+    	selectedPCF = d;
 		updateRiskBarGraph(injuryData);
+
+		// change color for selected pcf
+		pcf_svg.selectAll("rect")
+			.attr("fill", function(d) {
+	          if (d === selectedPCF) {
+	            return "salmon";
+	          }
+	          return "steelblue";
+	        });
 	});
 
 	// update axes

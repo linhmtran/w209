@@ -7,7 +7,7 @@ var pcfStats;
 // global used here
 var map;
 var info;
-var legend;
+var map_legend;
 // var mapType = "PerCapita";
 var mapType = "Counts";
 
@@ -110,10 +110,10 @@ d3.queue()
 	    return this._div;
 	};
 
-	info.update = function (props) {
-    	this._div.innerHTML = (props ?
-    	'<b>' + props.name + '</b><br />' + getCollisionsPerCap(props.name) + ' collisions per 10,000 population' +
-    	'<br />' + numberWithCommas(getCollisions(props.name)) + ' collisions '
+	info.update = function (name) {
+    	this._div.innerHTML = (name ?
+    	'<b>' + name + '</b><br />' + getCollisionsPerCap(name) + ' collisions per 10,000 population' +
+    	'<br />' + numberWithCommas(getCollisions(name)) + ' collisions '
     	: 'Click on a county');
   	};
 
@@ -178,7 +178,7 @@ d3.queue()
 
 	    // console.log(pcfStats);
 	    updatePCFGraph(pcfStats);
-	    info.update(e.target.feature.properties);
+	    info.update(e.target.feature.properties.name);
 	}
 
 	function onEachFeature(feature, layer) {
@@ -197,13 +197,13 @@ d3.queue()
 	// ---------------------------------------------------------------------
 	// legend box
 	// ---------------------------------------------------------------------
-	var legend = L.control({position: 'bottomleft'});
-	legend.onAdd = function (map) {
+	var map_legend = L.control({position: 'bottomleft'});
+	map_legend.onAdd = function (map) {
 		this._div = L.DomUtil.create("div", "info legend");
     	return this._div;
 	};
 
-	legend.update = function() {
+	map_legend.update = function() {
 		// console.log("Updating legend.");
 
 		var cMax;
@@ -235,14 +235,14 @@ d3.queue()
 	    this._div.innerHTML = labels.join("<br>");
 	};
 
-	legend.addTo(map);
-	legend.update();
+	map_legend.addTo(map);
+	map_legend.update();
 	geojson.setStyle(style);
 
 	// update on radio buttons
 	d3.selectAll(".radioButton")
 		.on("change",function() {
-				console.log("adjusting heatmap");
+				// console.log("adjusting heatmap");
 				// heat map using counts
 				if (document.getElementById('r1').checked) {
 					mapType = "Counts";
@@ -251,10 +251,26 @@ d3.queue()
 			else {
 				mapType = "PerCapita";
 			}
-			legend.update();
+			map_legend.update();
 			geojson.setStyle(style);
 			});
+
+	// d3.selectAll(".resetMap")
+	// 	.on("click", function() {
+	// 		console.log("reset click");
+	// 		selectCounty("CA_STATE");
+	// 		updatePCFGraph(pcfStats);
+	// 		info.update("");
+	// 	})
 
 	// initial load of pcf graph
 	updatePCFGraph(pcfStats);
 });
+
+// reset data to state level when button clicked
+// function resetMap() {
+// 	console.log("reset click");
+// 	selectCounty("CA_STATE");
+// 	updatePCFGraph(pcfStats);
+// 	info.update("");
+// }
