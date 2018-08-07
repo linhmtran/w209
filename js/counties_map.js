@@ -255,22 +255,15 @@ d3.queue()
 			geojson.setStyle(style);
 			});
 
-	// d3.selectAll(".resetMap")
-	// 	.on("click", function() {
-	// 		console.log("reset click");
-	// 		selectCounty("CA_STATE");
-	// 		updatePCFGraph(pcfStats);
-	// 		info.update("");
-	// 	})
+	d3.selectAll(".resetButton")
+		.on("click", function() {
+			// console.log("reset click");
+			selectCounty("CA_STATE");
+			updatePCFGraph(pcfStats);
+			updateRiskBarGraph(injuryData);
+			info.update("");
+		})
 
 	// initial load of pcf graph
 	updatePCFGraph(pcfStats);
 });
-
-// reset data to state level when button clicked
-// function resetMap() {
-// 	console.log("reset click");
-// 	selectCounty("CA_STATE");
-// 	updatePCFGraph(pcfStats);
-// 	info.update("");
-// }

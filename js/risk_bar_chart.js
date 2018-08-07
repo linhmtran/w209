@@ -39,6 +39,15 @@ r_svg.append('g')
 .attr('class', 'y axis')
 .call(r_yAxis);
 
+var nicePCFCategory = function (pcf) {
+  if (pcf == null || pcf == "") {
+    return "All Categories";
+  }
+  else {
+    return pcf;
+  }
+}
+
 // sum up the injury/fatality across all pcf categories for a selected county
 var getCountyTotalRiskCounts = function (county, data) {
   var stats = { Injury: 0,
@@ -247,7 +256,7 @@ var updateRiskBarGraph = function (data) {
    .style('text-anchor', 'middle')
    .style('font-size', '14px')
    .style('text-decoration', 'bold')
-   .text('Risk Rates for Collision Factor: ' + selectedCounty);
+   .text('Risk Rates for Collision Factor: ' + nicePCFCategory(selectedPCF));
 
   // y axis label
   r_svg.append('text')

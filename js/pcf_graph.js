@@ -39,6 +39,19 @@ pcf_svg.append('g')
 .attr('class', 'y axis')
 .call(pcf_yAxis);
 
+// returns a nice printable county name
+// really, if we don't have a county name, print a nice "All California"
+var niceCountyName = function(name) {
+	var countyName;
+	if (name == "" || name == "CA_STATE") {
+		countyName = "All California";
+	}
+	else {
+		countyName = selectedCounty + " County";
+	}
+	return countyName;
+}
+
 // get collision counts/types for the global selectedCounty
 var getCountyCollisions = function (data) {
   var c_search = 'Total';
@@ -177,7 +190,7 @@ var updatePCFGraph = function(data) {
 		.style("text-anchor", "middle")
 		.style("font-size", "14px")
 		.style("text-decoration", "bold")
-		.text("Number of Collisions by Causes for Selected Region: " + selectedCounty);
+		.text("Number of Collisions by Causes for " + niceCountyName(selectedCounty));
 
 	// y axis label
 	pcf_svg.append("text")
