@@ -10,6 +10,7 @@ These are the artifacts used in presenting and developing our visualization for 
 Artifacts are coded in HTML and JavaScript using D3.
 
 ## Demo
+http://people.ischool.berkeley.edu/~mgin/w209_traffic_accident_viz.git/index.html
 
 ## How to Use
 
