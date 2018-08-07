@@ -1,20 +1,18 @@
 // needs global selectedCounty
-var selectedCounty = "CA_STATE";
+var selectedCounty = 'CA_STATE';
+var selectedPCF;
 // var injuryData;
 
 // pareto chart svg
 //Set dimensions
-var pcf_m = {top: 50, right: 50, bottom: 120, left: 70}
-, pcf_h = 550 - pcf_m.top - pcf_m.bottom
-, pcf_w = 500 - pcf_m.left - pcf_m.right
-, pcf_barWidth = 5;
+var pcf_m = { top: 50, right: 50, bottom: 120, left: 70 }, pcf_h = 550 - pcf_m.top - pcf_m.bottom, pcf_w = 500 - pcf_m.left - pcf_m.right, pcf_barWidth = 5;
 
 //Draw svg
-var pcf_svg = d3.select("#pcf_graph").append("svg")
-        .attr("width", pcf_w + pcf_m.left + pcf_m.right)
-        .attr("height", pcf_h + pcf_m.top + pcf_m.bottom)
-        .append("g")
-        .attr("transform", "translate(" + pcf_m.left + "," + pcf_m.top + ")");
+var pcf_svg = d3.select('#pcf_graph').append('svg')
+        .attr('width', pcf_w + pcf_m.left + pcf_m.right)
+        .attr('height', pcf_h + pcf_m.top + pcf_m.bottom)
+        .append('g')
+        .attr('transform', 'translate(' + pcf_m.left + ',' + pcf_m.top + ')');
 
 //Axes and scales
 var pcf_xScale = d3.scaleBand()
@@ -32,18 +30,18 @@ var pcf_yAxis = d3.axisLeft()
           .scale(pcf_yScale);
 
 //Draw axes
-pcf_svg.append("g")
-.attr("class", "x axis")
-.attr("transform", "translate(0," + pcf_h + ")")
+pcf_svg.append('g')
+.attr('class', 'x axis')
+.attr('transform', 'translate(0,' + pcf_h + ')')
 .call(pcf_xAxis);
 
-pcf_svg.append("g")
-.attr("class", "y axis")
+pcf_svg.append('g')
+.attr('class', 'y axis')
 .call(pcf_yAxis);
 
 // get collision counts/types for the global selectedCounty
-var getCountyCollisions = function(data) {
-	var c_search = "Total";
+var getCountyCollisions = function (data) {
+  var c_search = 'Total';
 	if (selectedCounty != "") {
 		c_search = selectedCounty;
 	}
@@ -101,7 +99,7 @@ var updatePCFGraph = function(data) {
 	.attr("class", "tooltip")
 	.style("opacity", 0);
 
-	//select all bars on the graph, take them out, and exit the previous data set. 
+	//select all bars on the graph, take them out, and exit the previous data set.
 	//then you can add/enter the new data set
 	var pcf_bars = pcf_svg.selectAll(".bar")
 	.remove()
@@ -138,6 +136,7 @@ var updatePCFGraph = function(data) {
 	})
 	.on("click", function(d) {
 		console.log("click = " + d);
+    selectedPCF = d;
 		updateRiskBarGraph(injuryData);
 	});
 

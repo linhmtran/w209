@@ -18,8 +18,6 @@ var r_xScale = d3.scaleBand()
 .domain(['Fatal', 'Injury'])
 .range([0, r_w])
 .round(.1);
-//.range(['#8b0000', '#cccc00', '#e69500']);
-// domain and range can be fixed
 
 var r_yScale = d3.scaleLinear()
 .range([r_h, 0]);
@@ -29,6 +27,7 @@ var r_xAxis = d3.axisBottom()
 
 var r_yAxis = d3.axisLeft()
           .scale(r_yScale);
+// .tickFormat(formatPercent);
 
 //Draw axes
 r_svg.append('g')
@@ -67,20 +66,47 @@ var getCountyTotalRiskCounts = function (county, data) {
   return stats;
 };
 
+// format the Rates
+var formatPercent = d3.format(',.2%');
+
 // get the injury/fatality stats for a particular county and pcf category
 var getCountyPCFRiskCounts = function (county, pcf, data) {
-  var stats;
-  data.forEach(function (d) {
-    if (d.County == county) {
-      // console.log("county = " + county);
-      // console.log("d = " + d.CollisionFactor[pcf]);
-      // console.log(d.CollisionFactor);
-      stats = d.CollisionFactor[pcf];
-    }
-  });
+    var stats = { Injury: 0,
+                  Fatal: 0,
+                  Property: 0,
+                  Total: 0,
+                };
+    data.forEach(function (d) {
+        if (d.County == county) {
+          var cfData = d.CollisionFactor;
+          // console.log(Object.keys(cfData));
+          stats.Injury = cfData[pcf].Injury;
+          stats.Fatal = cfData[pcf].Fatal;
+          stats.Property = cfData[pcf].Property;
+          //stats.Total += cfData[pcf].Total;
+          stats.Total = cfData[pcf].Injury + cfData[pcf].Fatal + cfData[pcf].Property;
+        };
+      });
 
-  return stats;
-};
+    console.log(stats);
+    return stats;
+  };
+
+
+// var getCountyPCFRiskCounts = function (county, pcf, data) {
+//   var stats;
+//   data.forEach(function (d) {
+//     if (d.County == county) {
+//       // console.log("county = " + county);
+//       // console.log("d = " + d.CollisionFactor[pcf]);
+//       // console.log(d.CollisionFactor);
+//       stats = d.CollisionFactor[pcf].Fatal + d.CollisionFactor[pcf].Injury + d.CollisionFactor[pcf].Property;
+//       console.log(stats);
+//     }
+//   });
+//
+//   return stats;
+// };
 
 // calculate and return an object which contains the "average" risk rates
 // for injuries, fatalities, and property across all pcf categories for a specific county
@@ -102,6 +128,7 @@ var getCountyTotalRiskRate = function (county, data) {
 // for injury, fatalities, and property only for a specific PCF category for a county
 var getCountyPCFRiskRate = function (county, pcf, data) {
   var stats = getCountyPCFRiskCounts(county, pcf, data);
+  // console.log(stats);
   var rates = { Injury: stats.Injury / stats.Total,
                 Fatal: stats.Fatal / stats.Total,
                 Property: stats.Property / stats.Total,
@@ -121,8 +148,16 @@ var updateRiskBarGraph = function (data) {
   //
   // console.log(getCountyTotalRiskRate('Alpine', data));
   // console.log(getCountyPCFRiskRate('Alpine', 'DUI', data));
+  console.log(selectedPCF);
+  if (selectedPCF == null) {
+    var totalRiskRates = getCountyTotalRiskRate(selectedCounty, data);
+  } else {
+    var totalRiskRates = getCountyPCFRiskRate(selectedCounty, selectedPCF, data);
+  }
 
-  var totalRiskRates = getCountyTotalRiskRate(selectedCounty, data);
+  // var totalRiskRates = (selectedPCF = '')?
+  //   getCountyTotalRiskRate(selectedCounty, data) :
+  //   getCountyPCFRiskRate(selectedCounty, selectedPCF, data);
   // console.log(selectedCounty);
   console.log(Object.keys(totalRiskRates));
   console.log(totalRiskRates);
