@@ -179,6 +179,8 @@ d3.queue()
 	    // console.log(pcfStats);
 	    updatePCFGraph(pcfStats);
 	    info.update(e.target.feature.properties.name);
+
+			updateheatmapChart(dateTimeData,selectedCounty);
 	}
 
 	function onEachFeature(feature, layer) {
@@ -259,6 +261,7 @@ d3.queue()
 		.on("click", function() {
 			// console.log("reset click");
 			selectCounty("CA_STATE");
+			updateheatmapChart(dateTimeData,selectedCounty);
 			updatePCFGraph(pcfStats);
 			updateRiskBarGraph(injuryData);
 			info.update("");
