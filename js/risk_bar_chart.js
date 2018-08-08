@@ -40,13 +40,12 @@ r_svg.append('g')
 .call(r_yAxis);
 
 var nicePCFCategory = function (pcf) {
-  if (pcf == null || pcf == "") {
-    return "All Categories";
-  }
-  else {
+  if (pcf == null || pcf == '') {
+    return 'All Categories';
+  } else {
     return pcf;
   }
-}
+};
 
 // sum up the injury/fatality across all pcf categories for a selected county
 var getCountyTotalRiskCounts = function (county, data) {
@@ -266,6 +265,10 @@ var updateRiskBarGraph = function (data) {
   r_svg.append('text')
    .attr('transform', 'translate(' + (r_w / 2 - r_m.left) + ',' + (r_h + r_m.bottom - 5) + ')')
    .text('Risk Category');
+
+  // reference lines for risk Rates
+  r_svg.append('line')
+    .style('stroke', '#7CFC00')
 
 }; // end updateRiskBarGraph
 

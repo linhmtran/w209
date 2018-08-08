@@ -45,17 +45,17 @@ body {
     opacity: 0.7;
 }
 
-div.tooltip {   
-    position: absolute;         
-    text-align: left;           
-    width: 250px;                   
-    height: 30px;                   
-    padding: 2px;               
-    font: 12px sans-serif;      
-    background: lightsteelblue; 
-    border: 0px;        
-    border-radius: 8px;         
-    pointer-events: none;           
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 250px;
+    height: 30px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
 }
 
 svg {
