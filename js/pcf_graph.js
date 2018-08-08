@@ -138,7 +138,7 @@ var updatePCFGraph = function(data) {
 		.duration(200)
 		.style("opacity", 0.9);
 			div.html("Collision Factor: " + d + "<br/>" +
-      			 "Number of Collisions: " + countyData[d])
+      			 "Number of Collisions: " + numberWithCommas(countyData[d]))
 		.style("left", (d3.event.pageX) + "px")
 		.style("top", (d3.event.pageY) + "px")
 	})
