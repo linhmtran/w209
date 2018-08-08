@@ -1,3 +1,20 @@
+/*body, html {
+    height: 100%;
+}*/
+
+body {
+    /* image used */
+    background-image: url();
+
+    /* full height */
+    height: 100%;
+
+    /* center and scale */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #map {
   height: 550px;
   width: 600px;
@@ -28,17 +45,17 @@
     opacity: 0.7;
 }
 
-div.tooltip {   
-    position: absolute;         
-    text-align: left;           
-    width: 250px;                   
-    height: 30px;                   
-    padding: 2px;               
-    font: 12px sans-serif;      
-    background: lightsteelblue; 
-    border: 0px;        
-    border-radius: 8px;         
-    pointer-events: none;           
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
 }
 
 svg {
