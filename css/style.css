@@ -47,7 +47,7 @@ body {
 
 div.tooltip {
     position: absolute;
-    text-align: left;
+    text-align: center;
     width: 250px;
     height: 30px;
     padding: 2px;
