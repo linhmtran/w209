@@ -34,6 +34,7 @@ r_svg.append('g')
 .attr('class', 'x axis')
 .attr('transform', 'translate(0,' + r_h + ')')
 .call(r_xAxis);
+// .tickFormat(formatPercent);
 
 r_svg.append('g')
 .attr('class', 'y axis')
@@ -122,13 +123,14 @@ var getCountyTotalRiskRate = function (county, data) {
   var totalStats = getCountyTotalRiskCounts(county, data);
   var rates = { Injury: totalStats.Injury / totalStats.Total,
               Fatal: totalStats.Fatal / totalStats.Total,
-              Property: totalStats.Property / totalStats.Total,
+              // Property: totalStats.Property / totalStats.Total,
             };
   // console.log(totalStats.Injury);
   // console.log(totalStats.Fatal);
   // console.log(totalStats.Property);
   // console.log(totalStats.Total);
-  // console.log(rates);
+  // console.log(rates.Fatal);
+  console.log(rates['Injury']);
   return rates;
 };
 
@@ -139,7 +141,7 @@ var getCountyPCFRiskRate = function (county, pcf, data) {
   // console.log(stats);
   var rates = { Injury: stats.Injury / stats.Total,
                 Fatal: stats.Fatal / stats.Total,
-                Property: stats.Property / stats.Total,
+                // Property: stats.Property / stats.Total,
               };
   return rates;
 };
@@ -163,18 +165,77 @@ var updateRiskBarGraph = function (data) {
     var totalRiskRates = getCountyPCFRiskRate(selectedCounty, selectedPCF, data);
   }
 
+  var ctyTotals = getCountyTotalRiskRate(selectedCounty, data);
+
   // var totalRiskRates = (selectedPCF = '')?
   //   getCountyTotalRiskRate(selectedCounty, data) :
   //   getCountyPCFRiskRate(selectedCounty, selectedPCF, data);
   // console.log(selectedCounty);
   console.log(Object.keys(totalRiskRates));
-  console.log(totalRiskRates);
+  console.log(Object.values(totalRiskRates)[0]);
 
   // update bar width for number of collision types
   r_barWidth = r_w / (Object.keys(totalRiskRates).length);
 
-  // update domain y axis, we know it's 0 to 1 since dealing with rates
-  r_yScale.domain([0, 1]);
+  // Decimal adjustment function
+  (function () {
+    /**
+     * Decimal adjustment of a number.
+     *
+     * @param {String}  type  The type of adjustment.
+     * @param {Number}  value The number.
+     * @param {Integer} exp   The exponent (the 10 logarithm of the adjustment base).
+     * @returns {Number} The adjusted value.
+     */
+    function decimalAdjust(type, value, exp) {
+      // If the exp is undefined or zero...
+      if (typeof exp === 'undefined' || +exp === 0) {
+        return Math[type](value);
+      }
+
+      value = +value;
+      exp = +exp;
+      // If the value is not a number or the exp is not an integer...
+      if (isNaN(value) || !(typeof exp === 'number' && exp % 1 === 0)) {
+        return NaN;
+      }
+      // Shift
+      value = value.toString().split('e');
+      value = Math[type](+(value[0] + 'e' + (value[1] ? (+value[1] - exp) : -exp)));
+      // Shift back
+      value = value.toString().split('e');
+      return +(value[0] + 'e' + (value[1] ? (+value[1] + exp) : exp));
+    }
+
+    // Decimal round
+    if (!Math.round10) {
+      Math.round10 = function(value, exp) {
+        return decimalAdjust('round', value, exp);
+      };
+    }
+    // Decimal floor
+    if (!Math.floor10) {
+      Math.floor10 = function(value, exp) {
+        return decimalAdjust('floor', value, exp);
+      };
+    }
+    // Decimal ceil
+    if (!Math.ceil10) {
+      Math.ceil10 = function(value, exp) {
+        return decimalAdjust('ceil', value, exp);
+      };
+    }
+  })();
+
+  // Make sure domain max is greater than or equal to Injury Rate
+  if (Math.ceil10(Object.values(totalRiskRates)[0] > 0.4)) {
+    domMax = Math.ceil10(Object.values(totalRiskRates)[0], -1);
+  } else {
+    domMax = Math.ceil10(Object.values(ctyTotals)[0] + 0.1, -1);
+  }
+
+  // update domain y axis to have a ceiling just above the injury rate
+  r_yScale.domain([0, domMax])
 
   // update domain x axis
   r_xScale.domain(Object.keys(totalRiskRates).map(function (d) {
@@ -198,7 +259,7 @@ var updateRiskBarGraph = function (data) {
   .append('rect')
   .attr('class', 'bar')
   .attr('x', function (d, i) {
-    return r_xScale(d) + 2;
+    return r_xScale(d) + 40;
   })
   .attr('y', function (d, i) {
     // console.log(d);
@@ -208,7 +269,7 @@ var updateRiskBarGraph = function (data) {
   .attr('height', function (d, i) {
     return r_h - r_yScale(totalRiskRates[d]);
   })
-  .attr('width', r_barWidth - 4)
+  .attr('width', r_barWidth - 80)
   .attr('fill', 'steelblue')
      .on('mouseover', function (d) {
         div.transition()
@@ -245,6 +306,8 @@ var updateRiskBarGraph = function (data) {
        .attr('transform', 'rotate(-90)')
        .attr('y', 6)
        .attr('dy', '.71em')
+       // .tickFormat(formatPercent)
+       // .tickFormat(d3.format('.0%'))
        .style('text-anchor', 'end');
 
   // title showing county selection
@@ -266,9 +329,43 @@ var updateRiskBarGraph = function (data) {
    .attr('transform', 'translate(' + (r_w / 2 - r_m.left) + ',' + (r_h + r_m.bottom - 5) + ')')
    .text('Risk Category');
 
-  // reference lines for risk Rates
+  // reference lines for Fatality Risk Rate
+  r_svg.selectAll('line')
+    .remove()
   r_svg.append('line')
-    .style('stroke', '#7CFC00')
+    .style('stroke', 'salmon')
+    .attr('x1', 0)
+    .attr('y1', r_yScale(Object.values(ctyTotals)[1]))
+    .attr('x2', r_w)
+    .attr('y2', r_yScale(Object.values(ctyTotals)[1]));
+  // console.log(getCountyTotalRiskRate(selectedCounty));
+
+  // Labels for Fatality Risk Rate reference line
+  r_svg.append("text")
+    .attr("transform", "translate("+(r_w + 3)+","+r_yScale(Object.values(ctyTotals)[1])+")")
+    .attr("dy", "-.5em")
+    .attr('dx', '-8em')
+    .attr("text-anchor", "start")
+    .style("fill", "salmon")
+    .text("Countywide Fatality Rate");
+
+  // reference lines for Injury Risk Rate
+  r_svg.append('line')
+    .style('stroke', '#00D9D9')
+    .attr('x1', 0)
+    .attr('y1', r_yScale(Object.values(ctyTotals)[0]))
+    .attr('x2', r_w)
+    .attr('y2', r_yScale(Object.values(ctyTotals)[0]));
+
+  // Labels for Injury Risk Rate reference line
+  r_svg.append("text")
+    .attr("transform", "translate("+(r_w + 3)+","+r_yScale(Object.values(ctyTotals)[0])+")")
+    .attr("dy", "-.5em")
+    .attr('dx', '-8em')
+    .attr("text-anchor", "start")
+    .style("fill", "#00D9D9")
+    .text("Countywide Injury Rate");
+
 
 }; // end updateRiskBarGraph
 
