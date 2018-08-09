@@ -25,6 +25,33 @@ body, html {
     padding: 16px;
 }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -172,6 +199,7 @@ body, html {
   <h3 class="w3-center">THE TEAM</h3>
   <p class="w3-center w3-large">The ones who built this visualization.</p>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+  <!-- <div align="justify" class="w3-row-padding" style="margin-top:64px"> -->
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
         <img src="img/zachday.jpg" alt="Zach" style="width:100%">
@@ -186,7 +214,7 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/img/markgin.jpg" alt="Mark" style="width:100%">
+        <img src="img/markgin.jpg" alt="Mark" style="width:100%">
         <div class="w3-container">
           <h3>Mark Gin</h3>
           <p class="w3-opacity">MIDS '19</p>
