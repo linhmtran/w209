@@ -1,57 +1,418 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css">
-	<title>California Traffic Collisions Visualization</title>
-</head>
-<body class="bg">
-	<h1>California Traffic Collisions - 2017</h1>
-	<p>As unfortunate as it may be, traffic collisions are an inevitable occurence in the world of commuting and California is in no short supply of commuters or car collisions.  These visualizations help us explore different facets of traffic collisions within the state of California.  The dataset was taken from all vehicle collisions reported to CHP and other law enforcement agencies for the entire year of 2017.  Dive in and explore the data for your region.
-	<div style="overflow: auto;" id="dash1_where">
-		<h2>Where are you driving?</h2>
-		<div style="width: 600px; float: left;" id="map_context">
-			<p>Location bears an impact to traffic collisions numbers, and can potentially affect the odds of your involvment in a traffic collision.</p>
+<html>
+<title>CA 2017 Traffic Accident Viz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("img/background_roadsky.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#where" class="w3-bar-item w3-button">WHERE</a>
+      <a href="#when" class="w3-bar-item w3-button"> WHEN</a>
+      <a href="#why" class="w3-bar-item w3-button"> WHY</a>
+      <a href="#team" class="w3-bar-item w3-button"> TEAM</a>
+      <!-- <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a> -->
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#where" onclick="w3_close()" class="w3-bar-item w3-button">WHERE</a>
+  <a href="#when" onclick="w3_close()" class="w3-bar-item w3-button"> WHEN</a>
+  <a href="#why" onclick="w3_close()" class="w3-bar-item w3-button"> WHY</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button"> TEAM</a>
+  <!-- <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a> -->
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">California Traffic Accidents of 2017</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">California Traffic Accidents of 2017</span><br>
+    <span class="w3-large">As unfortunate as it may be, traffic collisions are an inevitable occurence in the world of commuting and California is in no short supply of commuters or car collisions. These visualizations help us explore different facets of traffic collisions within the state of California. The dataset was taken from all vehicle collisions reported to CHP and other law enforcement agencies for the entire year of 2017. Dive through and explore the data for your region.</span>
+    <p><a href="#where" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Start Exploring</a></p>
+  </div>
+  <!-- <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div> -->
+</header>
+
+<!-- About Section -->
+<!-- <div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE COMPANY</h3>
+  <p class="w3-center w3-large">Key features of our company</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Responsive</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+  </div>
+</div> -->
+
+<!-- County Map Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="where">
+  <h3 class="w3-center">WHERE ARE YOU DRIVING?</h3>
+  <p class="w3-center w3-large">Where you are located or where you drive can affect the odds of your involvment in a traffic collision as well as what type of collision you may be involved in.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p>Location bears an impact to traffic collisions numbers, and can potentially affect the odds of your involvment in a traffic collision.</p>
 			<p>The map visualization allows you not only locate your region of driving, but it also provides some insights into collision numbers, providing data on raw number of collisions as well as number of collisions per 10,000 population.  Each county is colored: darker the shade, the higher number of collisions there are relative to other counties in the state.  Use the <strong>radio buttons</strong> to change the view to display the number of collisions per 10,000 population.</p>
-			<p>Some interesting takeaways:</p>
+			<h5><strong>Some interesting takeaways:</strong></h5>
 			<li>Los Angeles has by far the highest number of traffic collisions.</li>
 			<li>Alpine county has the highest number of collisions per 10,000 population.</li>
 			<p>This makes some sense if you know the areas.  Los Angeles has a huge population and strong <i>car culture</i>. Known for densely populated area, an impressive highway system, and many commuters, the sheer number of drivers alongside you raises the potential for a traffic collision.  However, with respect to its population size, its collision rate is not far off from other counties in the state.</p>
 			<p>Alpine county on the other hand, is a rather remote region near Lake Tahoe, it is someone secluded, with rugged terrain, mountains and weather factors.  Many travelers will <i>road trip</i> through this area.  It makes sense sense they have a very low number of collisions, but due to travlers, they have a high number of collisions for their population size.</p>
 			<p>Use the map visualization to explore at a high level the number and rate of traffic collisions for your county or others.  This information will cross filter the other visualizations so you can learn about different areas in further detail.  What do you find interesting in your region?</p>
-		</div>
-		<div style="float: left;" id="maptype">
-				<input type="radio" id="r1" name="maptype" class="radioButton" value="Number of Collisions" checked/> Number of Collisions
-				<input type="radio" id="r2" name="maptype" class="radioButton" value="Collisions per Capita"/> Collisions per 10,000 Population
-				<!-- <input type="button" id="b1" name="resetCounty" class="resetButton" value="Reset County Selection" onclick="mapInfoUpdate()"/> -->
-				<input type="button" id="b1" name="resetCounty" class="resetButton" value="Reset County Selection"/>
-			<div id="map"></div>
-		</div>
-	</div>
+      <br>
+      <p><a href="#when" class="w3-button w3-black">NEXT CHART > WHEN</a></p>
+    </div>
+    <div class="w3-half">
+      <!-- Add Maps -->
+      <!-- <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div> -->
+      <div style="float: left;" id="maptype">
+          <input type="radio" id="r1" name="maptype" class="radioButton" value="Number of Collisions" checked/> Number of Collisions
+          <input type="radio" id="r2" name="maptype" class="radioButton" value="Collisions per Capita"/> Collisions per 10,000 Population
+          <!-- <input type="button" id="b1" name="resetCounty" class="resetButton" value="Reset County Selection" onclick="mapInfoUpdate()"/> -->
+          <input type="button" id="b1" name="resetCounty" class="resetButton" value="Reset County Selection"/>
+        <div id="map"></div>
+    </div>
+  </div>
+</div>
 
-	<div style="overflow: auto;" id="dash2_when">
-		<h2>When are you on the road?</h2>
-		<div id="time_context">
-			<p>When you are on the road also influence your propensity for being involved in a traffic collision.  During rush-hour times, more cars are on the road competeing for space and time in some instances which can lead to tumultous and unfortunate situations. Being aware of these conditions can help you as a driver!</p>
-			<p>Traffic and collisions patterns share common traits throughout the week, but its also interesting to see how different days of the week differ.  For instance, Friday evenings tend to have a greater number of collisions, so there's another incentive to beat rush hour!</p>
-		</div>
-		<div id="heatmap"></div>
-	</div>
+<!-- WHEN section -->
+<div class="w3-container w3-white" style="padding:128px 16px" id="when">
+  <div class="w3-row-padding">
+    <div>
+      <h3>WHEN ARE YOU DRIVING?</h3>
+      <p>When you are on the road also influence your propensity for being involved in a traffic collision. Try exploring the collision patterns across various counties to see if there are any differences in time of day and day of week between regions.</p>
+      <h5><strong>Some interesting takeaways:</strong></h5>
+      <li>Collision counts peak around morning 7-8AM and afternoons 4-6PM, with Fridays generally having the greatest concentration of accidents for most counties.</li>
+      <p> During rush-hour times, more cars are on the road competeing for space and time in some instances which can lead to tumultous and unfortunate situations. This is not surprising, since more cars on the road will result in a higher accident rate. Being aware of these conditions can help you as a driver!</p>
+      <p>Traffic and collision patterns share common traits throughout the week, but it's also interesting to see how different days of the week may vary in collision patterns. For instance, Friday evenings tend to have a greater number of collisions as opposed to the other days of weeks. If Tuesday home-bound commutes are the same times as Friday home-bound commutes, what are potential reasons that Fridays having a greater volume of collisions? Could it be behavioral (everyone is more eager and aggressive to go home)? Or could it be that the spread of commute times is smaller on Fridays as compared to other days?</p>
+      <div id="heatmap" >
+      </div>
+      <a href="#why" class="w3-button w3-black">NEXT CHART > FACTORS</a>
+    </div>
+  </div>
+</div>
 
-	<div style="overflow: auto;" id="dash3_what">
-		<h2>What are the factors?</h2>
-		<div style="width: 600px; float: left;" id="what_context">
-			<p>Traffic collisions occur for a breadth of reasons with many factors and outcomes.</p>
-			<p>The first graph here displays the number of categorized collision factors reported to the CHP.  Click on one and it will cross filter into the second display showing you injury and fatality rates for that type of accident.</p>
-
-			<p>A majority of collisions only result in property damge, however, there are always cases that also result in injury or worse fatality.  Explore some of the causes of collisions in your county, and what proportion of them result in injury or deaths.  Understanding these factors can help inform you what to search in your surroundings and what you can do on your part to be a safer driver.</p>
-			<p>Based on your location selection, the bar chart which update with detail the number of collisions for each CHP Primary Collision Factor violation category.  This can be speeding, brake failures, driving under the influence (DUI). Although, many counties seem to share a consistent pattern of violations: speeding is almost always a clear winner!</p>
-			<p>Please note the changing scale based on the county selection.  Naturally, smaller populous regions have few collisions on records. Take a moment to explore your region and others!  See what violaions are most prevalent in your area and discover things you should be wary of to help become a safer driver.</p>
-		</div>
-		<div style="float: left;" id="pcf_graph"></div>
+<!-- WHAT/WHY section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="why">
+  <div class="w3-row-padding">
+    <div>
+      <h3>WHAT ARE THE FACTORS?</h3>
+      <p>What are the causes of these collisions and what are the consequences?</p>
+      <p>A majority of collisions only result in property damge, however unfortunate, there are always cases that also result in injury or worse fatality. Explore some of the causes of collisions in your county, and what proportion of them result in injury or deaths. Understanding these factors can help inform you what to search in your surroundings and what you can do on your part to be a safer driver.</p>
+      <p>Based on your location selection, the bar chart which update with detail the number of collisions for each CHP Primary Collision Factor violation category. This can be speeding, brake failures, driving under the influence (DUI). Although, many counties seem to share a consistent pattern of violations: speeding is almost always a clear winner!</p>
+      <p>Please note the changing scale based on the county selection. Naturally, smaller populous regions have few collisions on records. Take a moment to explore your region and others! See what violaions are most prevalent in your area and discover things you should be wary of to help become a safer driver.</p>
+    </div>
+    <div style="float: left;" id="pcf_graph"></div>
 		<div style="float: center;" id="risk_chart"></div>
-	</div>
+    </div>
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container w3-white" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who built this visualization.</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img/zachday.jpg" alt="Zach" style="width:100%">
+        <div class="w3-container">
+          <h3>Zach Day</h3>
+          <p class="w3-opacity">MIDS '19</p>
+          <p>iSchool Profile</p>
+          <p>LinkedIn</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/img/markgin.jpg" alt="Mark" style="width:100%">
+        <div class="w3-container">
+          <h3>Mark Gin</h3>
+          <p class="w3-opacity">MIDS '19</p>
+          <p>iSchool Profile</p>
+          <p>LinkedIn</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img/linhtran.jpg" alt="Linh" style="width:100%">
+        <div class="w3-container">
+          <h3>Linh Tran</h3>
+          <p class="w3-opacity">MIDS '19</p>
+          <p>iSchool Profile</p>
+          <p>LinkedIn</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<!-- <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div> -->
+
+<!-- Work Section -->
+<!-- <div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">OUR WORK</h3>
+  <p class="w3-center w3-large">What we've done for people</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+  </div>
+</div> -->
+
+<!-- Modal for full size images on click-->
+<!-- <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div> -->
+
+<!-- Skills Section -->
+<!-- <div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+      tempor incididunt ut labore et dolore.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+      tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Photography</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- Pricing Section -->
+<!-- <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>PRICING</h3>
+  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16"><b>10GB</b> Storage</li>
+        <li class="w3-padding-16"><b>10</b> Emails</li>
+        <li class="w3-padding-16"><b>10</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
+        <li class="w3-padding-16"><b>25GB</b> Storage</li>
+        <li class="w3-padding-16"><b>25</b> Emails</li>
+        <li class="w3-padding-16"><b>25</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+        <li class="w3-padding-16"><b>50GB</b> Storage</li>
+        <li class="w3-padding-16"><b>50</b> Emails</li>
+        <li class="w3-padding-16"><b>50</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div> -->
+
+<!-- Contact Section -->
+<!-- <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <br>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+    <div class="w3-half"> -->
+      <!-- Add Google Maps -->
+      <!-- <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+    </div>
+  </div>
+</div> -->
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Project for <a href="http://ischool.berkeley.edu" title="UC Berkeley School of Information" target="_blank" class="w3-hover-text-green">UC Berkeley School of Information</a></p>
+</footer>
+
+
+<script>
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+</script>
 
 <script src="js/d3.v4.js"></script>
 <script src="js/d3-legend.min.js"></script>
@@ -70,7 +431,6 @@
 <!-- scripts for Date Time Heat Map Chart -->
 <script src="https://d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
 <script src="js/date_time_chart.js"></script>
-
 
 </body>
 </html>
