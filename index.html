@@ -168,10 +168,13 @@ $(document).ready(function(){
       <p>When you are on the road also influence your propensity for being involved in a traffic collision. Try exploring the collision patterns across various counties to see if there are any differences in time of day and day of week between regions.</p>
       <h5><strong>Some interesting takeaways:</strong></h5>
       <li>Collision counts peak around morning 7-8AM and afternoons 4-6PM, with Fridays generally having the greatest concentration of accidents for most counties.</li>
+      <li>For less populated areas or areas away from main cities, we see accidents occuring more sporadically throughout the days of week or times of days (such as Inyo, Mono, etc.)</li>
       <p> During rush-hour times, more cars are on the road competeing for space and time in some instances which can lead to tumultous and unfortunate situations. This is not surprising, since more cars on the road will result in a higher accident rate. Being aware of these conditions can help you as a driver!</p>
       <p>Traffic and collision patterns share common traits throughout the week, but it's also interesting to see how different days of the week may vary in collision patterns. For instance, Friday evenings tend to have a greater number of collisions as opposed to the other days of weeks. If Tuesday home-bound commutes are the same times as Friday home-bound commutes, what are potential reasons that Fridays having a greater volume of collisions? Could it be behavioral (everyone is more eager and aggressive to go home)? Or could it be that the spread of commute times is smaller on Fridays as compared to other days?</p>
-      <div id="heatmap" >
-      </div>
+      <select id="selectedCounty" onchange="filterCounty(this)">
+          <option value="">-- Select County --</option>
+      </select>
+      <div id="heatmap" ></div>
       <a href="#why" class="w3-button w3-black">NEXT CHART > FACTORS</a>
     </div>
   </div>

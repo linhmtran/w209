@@ -24,7 +24,7 @@ var updateheatmapChart = function(data,selectedCounty) {
     console.log("Date-Time Heatmap filtered On:");
     console.log(selectedCounty);
   } else {
-    selectedCounty = selectedCounty + " County";
+    var selectedCounty = selectedCounty + " County";
     var countyToolTip = selectedCounty;
     console.log("Date-Time Heatmap filtered On:");
     console.log(selectedCounty)
@@ -150,6 +150,41 @@ var updateheatmapChart = function(data,selectedCounty) {
     legend.exit().remove();
 };
 
+function populateSelect(data) {
+    var counties = [];
+    data.forEach(function(item){
+      if(!counties.includes(item.County)){
+        counties.push(item.County);
+      };
+    });
+    // console.log(counties);
+
+    var ele = document.getElementById('selectedCounty');
+    for (var i = 0; i < counties.length; i++) {
+        // POPULATE SELECT ELEMENT WITH JSON.
+        ele.innerHTML = ele.innerHTML +
+            '<option value="' + counties[i] + '">' + counties[i] +'</option>';
+    }
+}
+
+function filterCounty(element) {
+    selectCounty((element.value).replace(' County', ''));
+    console.log(selectedCounty);
+
+    updatePCFGraph(pcfStats);
+    // info.update(selectedCounty);
+
+    // need to parse out the "county"
+
+    updateheatmapChart(dateTimeData,selectedCounty);
+}
+
+function setSelectedIndex(s, i){
+  s.options[i-1].selected = true;
+  return;
+
+}
+
 // load the dataset
 d3.queue()
 	.defer(d3.json, "data/countyDateTimeStats.json")
@@ -158,5 +193,6 @@ d3.queue()
 
   dateTimeData = results[0];
 
+  populateSelect(dateTimeData);
   updateheatmapChart(dateTimeData,selectedCounty);
 });
