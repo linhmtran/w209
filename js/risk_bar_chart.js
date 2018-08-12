@@ -4,7 +4,7 @@ var injuryData;
 
 // risk bar chart w/ref lines svg
 //Set dimensions
-var r_m = { top: 50, right: 50, bottom: 70, left: 70 }, r_h = 500 - r_m.top - r_m.bottom, r_w = 800 - r_m.left - r_m.right, r_barWidth = 10;
+var r_m = { top: 50, right: 50, bottom: 70, left: 70 }, r_h = 500 - r_m.top - r_m.bottom, r_w = 500 - r_m.left - r_m.right, r_barWidth = 10;
 
 //Draw svg
 var r_svg = d3.select('#risk_chart').append('svg')
