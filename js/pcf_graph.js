@@ -5,7 +5,7 @@ var selectedPCF;
 
 // pareto chart svg
 //Set dimensions
-var pcf_m = { top: 50, right: 50, bottom: 120, left: 70 }, pcf_h = 550 - pcf_m.top - pcf_m.bottom, pcf_w = 500 - pcf_m.left - pcf_m.right, pcf_barWidth = 5;
+var pcf_m = { top: 50, right: 50, bottom: 120, left: 70 }, pcf_h = 550 - pcf_m.top - pcf_m.bottom, pcf_w = 800 - pcf_m.left - pcf_m.right, pcf_barWidth = 5;
 
 //Draw svg
 var pcf_svg = d3.select('#pcf_graph').append('svg')
@@ -41,52 +41,54 @@ pcf_svg.append('g')
 
 // returns a nice printable county name
 // really, if we don't have a county name, print a nice "All California"
-var niceCountyName = function(name) {
-	var countyName;
-	if (name == "" || name == "CA_STATE") {
-		countyName = "All California";
-	}
-	else {
-		countyName = selectedCounty + " County";
-	}
-	return countyName;
-}
+var niceCountyName = function (name) {
+  var countyName;
+  if (name == '' || name == 'CA_STATE') {
+    countyName = 'All California';
+  } else {
+    countyName = selectedCounty + ' County';
+  }
+
+  return countyName;
+};
 
 // get collision counts/types for the global selectedCounty
 var getCountyCollisions = function (data) {
   var c_search = 'Total';
-	if (selectedCounty != "") {
-		c_search = selectedCounty;
-	}
-	var cData;
-	// console.log(pcfStats);
-	data.forEach(function (d) {
-		if (d.County == c_search) {
-	  		cData = d.CollisionFactor;
-		}
-	})
-	return cData;
-}
+  if (selectedCounty != '') {
+    c_search = selectedCounty;
+  }
+
+  var cData;
+  // console.log(pcfStats);
+  data.forEach(function (d) {
+    if (d.County == c_search) {
+      cData = d.CollisionFactor;
+    }
+  });
+
+  return cData;
+};
 
 // get the max number of collisions of any type for the global selectedCounty
-var getMaxCollisionTypeValue = function(data) {
-	// var c_search = "Total";
-	// if (selectedCounty != "") {
-	// 	 c_search = selectedCounty;
-	// }
-	var vMax = 0;
-	var cData = getCountyCollisions(data);
-	Object.keys(cData).forEach(function (key) {
-	// console.log(cData[key])
-		if (vMax < cData[key]) {
-		  		vMax = cData[key];
-			}
-	});
-	// console.log("max = " + vMax);
-	return vMax;
-}
+var getMaxCollisionTypeValue = function (data) {
+  // var c_search = "Total";
+  // if (selectedCounty != "") {
+  // 	 c_search = selectedCounty;
+  // }
+  var vMax = 0;
+  var cData = getCountyCollisions(data);
+  Object.keys(cData).forEach(function (key) {
+    // console.log(cData[key])
+    if (vMax < cData[key]) {
+        vMax = cData[key];
+     }
+  });
+  // console.log("max = " + vMax);
+  return vMax;
+};
 
-var updatePCFGraph = function(data) {
+var updatePCFGraph = function (data) {
 	// clear title and labels
 	pcf_svg.selectAll("text")
 		.remove()

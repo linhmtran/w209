@@ -4,7 +4,7 @@ var injuryData;
 
 // risk bar chart w/ref lines svg
 //Set dimensions
-var r_m = { top: 50, right: 50, bottom: 70, left: 70 }, r_h = 500 - r_m.top - r_m.bottom, r_w = 500 - r_m.left - r_m.right, r_barWidth = 10;
+var r_m = { top: 50, right: 50, bottom: 70, left: 70 }, r_h = 500 - r_m.top - r_m.bottom, r_w = 800 - r_m.left - r_m.right, r_barWidth = 10;
 
 //Draw svg
 var r_svg = d3.select('#risk_chart').append('svg')
@@ -234,6 +234,9 @@ var updateRiskBarGraph = function (data) {
     domMax = Math.ceil10(Object.values(ctyTotals)[0] + 0.1, -1);
   }
 
+  // format axis ticks to percentages
+  var formatAsPercent = d3.format('.0%');
+
   // update domain y axis to have a ceiling just above the injury rate
   r_yScale.domain([0, domMax])
 
@@ -269,7 +272,7 @@ var updateRiskBarGraph = function (data) {
   .attr('height', function (d, i) {
     return r_h - r_yScale(totalRiskRates[d]);
   })
-  .attr('width', r_barWidth - 80)
+  .attr('width', r_barWidth - 120)
   .attr('fill', 'steelblue')
      .on('mouseover', function (d) {
         div.transition()
@@ -301,12 +304,12 @@ var updateRiskBarGraph = function (data) {
 
   r_svg.append('g')
       .attr('class', 'y axis')
-      .call(r_yAxis)
+      .call(r_yAxis.tickFormat(formatAsPercent))
       .append('text')
        .attr('transform', 'rotate(-90)')
        .attr('y', 6)
        .attr('dy', '.71em')
-       // .tickFormat(formatPercent)
+       // .tickFormat(formatAsPercent)
        // .tickFormat(d3.format('.0%'))
        .style('text-anchor', 'end');
 
@@ -333,7 +336,7 @@ var updateRiskBarGraph = function (data) {
   r_svg.selectAll('line')
     .remove()
   r_svg.append('line')
-    .style('stroke', 'salmon')
+    .style('stroke', '#e50000')
     .attr('x1', 0)
     .attr('y1', r_yScale(Object.values(ctyTotals)[1]))
     .attr('x2', r_w)
@@ -346,12 +349,12 @@ var updateRiskBarGraph = function (data) {
     .attr("dy", "-.5em")
     .attr('dx', '-8em')
     .attr("text-anchor", "start")
-    .style("fill", "salmon")
+    .style("fill", "#e50000")
     .text("Countywide Fatality Rate");
 
   // reference lines for Injury Risk Rate
   r_svg.append('line')
-    .style('stroke', '#00D9D9')
+    .style('stroke', '#7D26CD')
     .attr('x1', 0)
     .attr('y1', r_yScale(Object.values(ctyTotals)[0]))
     .attr('x2', r_w)
@@ -363,7 +366,7 @@ var updateRiskBarGraph = function (data) {
     .attr("dy", "-.5em")
     .attr('dx', '-8em')
     .attr("text-anchor", "start")
-    .style("fill", "#00D9D9")
+    .style("fill", "#7D26CD")
     .text("Countywide Injury Rate");
 
 
