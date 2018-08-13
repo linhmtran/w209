@@ -23,3 +23,5 @@ All artifacts are laid out in appropriate directories for hosting as a website.
 
 ## Past Prototypes
 http://people.ischool.berkeley.edu/~mgin/w209_project_prototype_v3/
+http://people.ischool.berkeley.edu/~linhmtran/prototype/
+https://public.tableau.com/profile/linh.tran7501#!/vizhome/2013-2017CATrafficCollisions/ProtoA?publish=yes
