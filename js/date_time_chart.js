@@ -1,23 +1,15 @@
 var selectedCounty = "CA_STATE";
-// var months = [
-//   'January',
-//   'February',
-//   'March',
-//   'April',
-//   'May',
-//   'June',
-//   'July',
-//   'August',
-//   'September',
-//   'October',
-//   'November',
-//   'December']
-//
-// var monthFilter = function(months){
-//   // create a slider for month of year
-// }
+var dayText = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var hourText = ["12am","1am", "2am", "3am", "4am", "5am", "6am", "7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm", "8pm", "9pm", "10pm", "11pm"];
 
-var updateheatmapChart = function(data,selectedCounty) {
+function getDayName(dayNum){
+  return dayText[dayNum-1];
+}
+function getTime(timeNum){
+  return hourText[timeNum];
+}
+
+var updateheatmapChart = function(data1, data2, selectedCounty) {
 
   if (selectedCounty==="CA_STATE"){
     var countyToolTip = "All CA Counties";
@@ -31,7 +23,7 @@ var updateheatmapChart = function(data,selectedCounty) {
   }
 
   // filter the data
-  data = data.filter(function(item){
+  data = data1.filter(function(item){
     return item.County===selectedCounty;
   });
   console.log(data);
@@ -44,9 +36,9 @@ var updateheatmapChart = function(data,selectedCounty) {
       width = 960 - margin.left - margin.right,
       height = 430 - margin.top - margin.bottom,
       gridSize = Math.floor(width / 24),
-      legendElementWidth = gridSize*2,
+      legendElementWidth = gridSize*2;
       days = ["Su","Mo", "Tu", "We", "Th", "Fr", "Sa"],
-      times = ["12a","1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12a", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p"];
+      times = ["12a","1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12p", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p"];
 
   var svg_heat = d3.select("div#heatmap").append("svg")
       .attr("width", width + margin.left + margin.right)
@@ -82,17 +74,17 @@ var updateheatmapChart = function(data,selectedCounty) {
     var colorScale = d3.scaleSequential(d3.interpolateBlues)
       .domain([0, d3.max(data, function (d) {return d.value} )]);
 
-    var cards = svg_heat.selectAll(".hour")
+    var tile = svg_heat.selectAll(".hour")
         .data(data, function (d) {return d.day+':'+d.hour} );
 
-    cards.append("title");
+    tile.append("title");
 
-    cards.enter().append("rect")
+    tile.enter().append("rect")
         .attr("x", function (d) {return ((d.hour)*gridSize)})
         .attr("y", function (d) {return ((d.day-1)*gridSize)})
         .attr("rx",4)
         .attr("ry",4)
-        .attr("class", "hour bordered")
+        // .attr("class", "hour bordered")
         .attr("width", gridSize-1)
         .attr("height", gridSize-1)
         .style("fill", "white")
@@ -110,16 +102,25 @@ var updateheatmapChart = function(data,selectedCounty) {
       			.duration(500)
       			.style("opacity", 0);
       	})
-        .merge(cards)
+        .on("mousedown", function(d){
+          d3.selectAll("rect")
+            .style("stroke-width",0);
+          d3.select(this)
+            .style("stroke","salmon")
+            .style("stroke-width",3);
+
+          whenFacetFactors(data2,selectedCounty,d.day,d.hour);
+        })
+        .merge(tile)
           .transition()
           .duration(1000)
         .style("fill", function (d) {return colorScale(d.value)})
 
 
 
-    cards.select("title").text(function (d) {return d.value} );
+    tile.select("title").text(function (d) {return d.value} );
 
-    cards.exit().remove();
+    tile.exit().remove();
 
     // Add a legend for the color values.
     var legend = svg_heat.selectAll(".legend")
@@ -176,23 +177,103 @@ function filterCounty(element) {
 
     // need to parse out the "county"
 
-    updateheatmapChart(dateTimeData,selectedCounty);
+    updateheatmapChart(dateTimeData,dateTime_factorData,selectedCounty);
 }
 
-function setSelectedIndex(s, i){
-  s.options[i-1].selected = true;
-  return;
+// function setSelectedIndex(s, i){
+//   s.options[i-1].selected = true;
+//   return;
+//
+// }
 
+// draw top 5 FACTORS
+function whenFacetFactors(data,county,day,hour){
+  d3.select("div#heatmap").select("svg#top5factors").remove();
+  console.log(data);
+  // filter data on the county, date, time
+  data = data.filter(function(item){
+    return (item.County===county);
+  });
+  data = data.filter(function(item){
+    return (item.day===day);
+  });
+  data = data.filter(function(item){
+    return (item.hour===hour);
+  });
+  var top5 = data.sort(function(a, b) { return a.records < b.records ? -1 : 1; })
+                .slice(Math.max(data.length - 5, 1));
+  console.log(top5);
+
+  var margin = {top: 20, right: 20, bottom: 120, left: 120},
+      width = 400 - margin.left - margin.right,
+      height = 400 - margin.top - margin.bottom;
+
+  var y = d3.scaleBand()
+            .range([height, 0])
+            .padding(0.1);
+
+  var x = d3.scaleLinear()
+            .range([0, width]);
+
+  var svg = d3.select("div#heatmap").append("svg")
+      .attr("id","top5factors")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+    x.domain([0, d3.max(top5, function(d){ return d.records; })])
+    y.domain(top5.map(function(d) { return d.factor; }));
+
+    // append the rectangles for the bar chart
+    var bars = svg.selectAll(".bar")
+        .data(top5)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("width", function(d) {return x(d.records); } )
+        .attr("y", function(d) { return y(d.factor); })
+        .attr("height", y.bandwidth())
+        .attr("fill","steelblue");
+
+    bars.exit().remove();
+
+    // add the x Axis
+    svg.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x).ticks(5));
+
+    // add the y Axis
+    svg.append("g")
+        .call(d3.axisLeft(y));
+
+    svg.append("text")
+        .attr("x", (width / 2))
+        // .attr("y", 0 - (margin.top / 2))
+        .attr("y", 3 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "14px")
+        .text("Top Factors for " + selectedCounty);
+
+    svg.append("text")
+        .attr("x", (width / 2))
+        // .attr("y", 0 - (margin.top / 2))
+        .attr("y", height + (margin.bottom/2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "14px")
+        .text("Count of Records for " + getDayName(day) + " at " + getTime(hour));
 }
 
 // load the dataset
 d3.queue()
 	.defer(d3.json, "data/countyDateTimeStats.json")
+  .defer(d3.json, "data/countyDateTime_PcfStats.json")
 	.awaitAll(function (error, results) {
 		if (error) throw error;
 
-  dateTimeData = results[0];
+    dateTimeData = results[0];
+    dateTime_factorData = results[1]
 
-  populateSelect(dateTimeData);
-  updateheatmapChart(dateTimeData,selectedCounty);
+    populateSelect(dateTimeData);
+    updateheatmapChart(dateTimeData,dateTime_factorData,selectedCounty);
 });
