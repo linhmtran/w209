@@ -180,7 +180,7 @@ d3.queue()
 	    updatePCFGraph(pcfStats);
 	    info.update(e.target.feature.properties.name);
 
-			updateheatmapChart(dateTimeData,selectedCounty);
+			updateheatmapChart(dateTimeData,dateTime_factorData,selectedCounty);
 	}
 
 	function onEachFeature(feature, layer) {

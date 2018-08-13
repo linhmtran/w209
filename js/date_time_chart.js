@@ -103,13 +103,15 @@ var updateheatmapChart = function(data1, data2, selectedCounty) {
       			.style("opacity", 0);
       	})
         .on("mousedown", function(d){
+          // console.log(document.getElementById("top5preview").checked);
+          if (document.getElementById("top5preview").checked==true){
           d3.selectAll("rect")
             .style("stroke-width",0);
           d3.select(this)
             .style("stroke","salmon")
             .style("stroke-width",3);
-
           whenFacetFactors(data2,selectedCounty,d.day,d.hour);
+        }
         })
         .merge(tile)
           .transition()
